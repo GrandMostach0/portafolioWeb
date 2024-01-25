@@ -1,0 +1,36 @@
+.menu{
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-opciones{
+    width: 25%;
+}
+
+.menu-opciones ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-opciones li{
+    list-style: none;
+}
+
+.menu-opciones a{
+    text-decoration: none;
+}
+
+#logoPersonal{
+    width: 80px;
+}
+
+@media (max-width: 750px){
+    .menu-opciones{
+        width: 50%;
+    }
+}

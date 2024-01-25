@@ -8,7 +8,8 @@
 }
 
 .menu-opciones{
-    width: 25%;
+    width: 400px;
+    font-size: 1.8rem;
 }
 
 .menu-opciones ul{
@@ -29,8 +30,13 @@
     width: 80px;
 }
 
-@media (max-width: 750px){
+@media (max-width: 600px){
     .menu-opciones{
-        width: 50%;
+        font-size: 1.3rem;
+        width: 70%;
+    }
+
+    #logoPersonal{
+        width: 50px;
     }
 }

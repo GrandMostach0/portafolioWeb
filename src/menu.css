@@ -1,5 +1,5 @@
 .menu{
-    border: 1px solid blue;
+    border: 1px solid red;
     margin: 5px;
     padding: 2%;
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 #logoPersonal{
-    width: 80px;
+    width: 70px;
 }
 
 @media (max-width: 600px){

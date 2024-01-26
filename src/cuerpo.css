@@ -9,7 +9,10 @@
 
 .presentacion img{
     width: 30%;
-    border: 1px solid blue;
+}
+
+#foto-personal{
+    border-radius: 40%;
 }
 
 .presentacion-text{
@@ -32,10 +35,20 @@
 .seccion-sociales-botones{
     margin: 5px;
     padding: 5px 0px;
-    border: 1px solid white;
 }
 
 .seccion-sociales-botones img{
     width: 50px;
     margin: 10px;
+}
+
+button{
+    margin: 15px 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background: rgb(131, 100, 221);
+    border: none;
 }

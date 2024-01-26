@@ -14,6 +14,10 @@ function Cuerpo(){
                     <a href="https://www.behance.net/victorchanva" target='_blank'><img src="src/assets/icons/icon-behance.svg" alt="behance"/></a>
                     <a href="#"><img src="src/assets/icons/icon-twitter.svg" alt="twitter"/></a>
                 </section>
+                <section className='seccion-sociales-botones'>
+                    <button>Contacto</button>
+                    <button>Descargar CV</button>
+                </section>
             </div>
             <img id='foto-personal' src="src/assets/images/foto.png" alt="photoLead" />
         </div>

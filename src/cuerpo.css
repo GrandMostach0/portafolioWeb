@@ -34,3 +34,8 @@
     padding: 5px 0px;
     border: 1px solid white;
 }
+
+.seccion-sociales-botones img{
+    width: 50px;
+    margin: 10px;
+}

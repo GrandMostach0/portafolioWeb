@@ -23,12 +23,12 @@
 
 .titulos{
     color: blueviolet;
-    font-size: 2.6rem;
-    margin: 5px;
+    font-size: 2.8rem;
+    margin: 10px 0px;
 }
 
 .parrafos{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 1.5px;
 }
 
@@ -51,4 +51,24 @@ button{
     font-size: 1.1rem;
     background: rgb(131, 100, 221);
     border: none;
+}
+
+@media (max-width: 600px) {
+    .titulos {
+        font-size: 2rem;
+    }
+
+    .parrafos {
+        font-size: 1.5rem;
+    }
+
+    .seccion-sociales-botones img{
+        width: 12%;
+    }
+
+    .seccion-sociales-botones button{
+        padding: 5px 8px;
+        margin: 5px;
+        font-size: 1rem;
+    }
 }

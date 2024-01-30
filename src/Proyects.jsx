@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Proyects{
-    return(){
-
-    }
+function Proyects(){
+    return(
+        <Section>
+            <h1>h</h1>
+        </Section>
+    )
 }
 
 export default Proyects;

@@ -1,0 +1,103 @@
+.presentacion{
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.presentacion img{
+    width: 25%;
+}
+
+#foto-personal{
+    border-radius: 40%;
+}
+
+.nombre-presentacion{
+    line-height: 5px;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: beige;
+}
+
+.presentacion-text{
+    padding: 5px;
+    width: 60%;
+}
+
+.titulos{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin: 10px 0px;
+}
+
+.parrafos{
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+}
+
+.seccion-sociales-botones{
+    margin: 5px;
+    padding: 5px 0px;
+}
+
+.seccion-sociales-botones img{
+    width: 50px;
+    margin: 10px;
+}
+
+button{
+    margin: 15px 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background: rgb(131, 100, 221);
+    border: none;
+}
+
+@media (max-width: 600px) {
+
+    .presentacion{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .nombre-presentacion{
+        font-size: 1.1rem;
+    }
+
+    #foto-personal{
+        margin: 10px;
+    }
+
+    .presentacion-text{
+        text-align: center;
+    }
+
+    .titulos {
+        font-size: 1.5rem;
+    }
+
+    .parrafos {
+        font-size: 1rem;
+    }
+
+    .seccion-sociales-botones img{
+        width: 10%;
+    }
+
+    .seccion-sociales-botones button{
+        padding: 4px 8px;
+        margin: 2px;
+        font-size: 0.9rem;
+    }
+
+    .seccion-botones{
+        width: 100%;
+    }
+}

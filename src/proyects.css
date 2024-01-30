@@ -1,6 +1,16 @@
 .container-proyects{
     margin: 2% auto;
-    width: 90%;
+    width: 85%;
     padding: 0.5%;
     border: 1px solid blue;
+}
+
+.container-proyects-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    gap: 30px;
+    grid-auto-rows: minmax(300px, auto);
+    padding: 10px;
+    grid-auto-flow: dense;
 }

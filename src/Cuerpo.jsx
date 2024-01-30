@@ -6,6 +6,7 @@ function Cuerpo(){
     return(
         <section className='presentacion'>
             <div className='presentacion-text'>
+                <h2 className='nombre-presentacion'>Victor Chan 👋</h2>
                 <h1 className='titulos'>Front-end Developer</h1>
                 <p className='parrafos'>Focused on creating website and web applications. I like what i do ❤️</p>
                 <section className='seccion-sociales-botones'>
@@ -14,7 +15,7 @@ function Cuerpo(){
                     <a href="https://www.behance.net/victorchanva" target='_blank'><img src="src/assets/icons/icon-behance.svg" alt="behance"/></a>
                     <a href="#"><img src="src/assets/icons/icon-twitter.svg" alt="twitter"/></a>
                 </section>
-                <section className='seccion-sociales-botones'>
+                <section className='seccion-sociales-botones seccion-botones'>
                     <button>Contacto</button>
                     <button>Descargar CV</button>
                 </section>

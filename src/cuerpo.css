@@ -15,6 +15,13 @@
     border-radius: 40%;
 }
 
+.nombre-presentacion{
+    line-height: 5px;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: beige;
+}
+
 .presentacion-text{
     padding: 5px;
     width: 60%;
@@ -59,6 +66,10 @@ button{
         justify-content: center;
     }
 
+    .nombre-presentacion{
+        font-size: 1.1rem;
+    }
+
     #foto-personal{
         margin: 10px;
     }
@@ -68,19 +79,24 @@ button{
     }
 
     .titulos {
-        font-size: 2rem;
-    }
-
-    .parrafos {
         font-size: 1.5rem;
     }
 
+    .parrafos {
+        font-size: 1rem;
+    }
+
     .seccion-sociales-botones img{
-        width: 12%;
+        width: 10%;
     }
 
     .seccion-sociales-botones button{
-        padding: 8px 16px;
-        font-size: 1rem;
+        padding: 4px 8px;
+        margin: 2px;
+        font-size: 0.9rem;
+    }
+
+    .seccion-botones{
+        width: 100%;
     }
 }

@@ -1,7 +1,7 @@
 .menu{
     position: fixed;
     width: 100%;
-    padding: 2%;
+    padding: 1% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;

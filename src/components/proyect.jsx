@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './proyect.css';
 
 export default function proyect() {
   return (

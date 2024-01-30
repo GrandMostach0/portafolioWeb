@@ -1,0 +1,11 @@
+.card-proyect{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.card-proyect-title{
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    margin: 8px;
+}

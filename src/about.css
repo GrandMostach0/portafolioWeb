@@ -8,9 +8,9 @@
 
 .container-about{
     text-align: center;
-    width: 90%;
+    width: 60%;
     border: 1px solid blue;
-    padding: 20px;
+    padding: 30px;
 }
 
 .container-about h1{

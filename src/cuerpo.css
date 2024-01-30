@@ -16,7 +16,6 @@
 }
 
 .presentacion-text{
-    border: 1px solid white;
     padding: 5px;
     width: 60%;
 }
@@ -54,6 +53,20 @@ button{
 }
 
 @media (max-width: 600px) {
+
+    .presentacion{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #foto-personal{
+        margin: 10px;
+    }
+
+    .presentacion-text{
+        text-align: center;
+    }
+
     .titulos {
         font-size: 2rem;
     }
@@ -67,8 +80,7 @@ button{
     }
 
     .seccion-sociales-botones button{
-        padding: 5px 8px;
-        margin: 5px;
+        padding: 8px 16px;
         font-size: 1rem;
     }
 }

@@ -1,4 +1,24 @@
 .separador{
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid green;
+}
+
+.container-about{
+    text-align: center;
+    width: 90%;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.container-about h1{
+    color: white;
+}
+
+.container-about h2{
+    font-size: 2rem;
+    color: blueviolet;
+    margin: 10px;
 }

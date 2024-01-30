@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
 import Cuerpo from './Cuerpo';
+import About from './About';
 import './menu.css';
 
 function App(){
@@ -11,6 +12,7 @@ function App(){
                 <Menu/>
             </header>
             <Cuerpo />
+            <About  />
         </div>
     );
 }

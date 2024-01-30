@@ -22,3 +22,13 @@
     color: blueviolet;
     margin: 10px;
 }
+
+.marca{
+    margin: 15px;
+    text-align: right;
+}
+
+#logo-personal-marca{
+    text-align: left;
+    width: 40px;
+}

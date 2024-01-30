@@ -1,5 +1,6 @@
 import React from 'react';
 import './cuerpo.css';
+import './about.css';
 
 function Cuerpo2(){
     return(

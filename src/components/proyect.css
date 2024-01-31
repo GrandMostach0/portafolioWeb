@@ -5,13 +5,21 @@
 
 .card-proyect-title{
     text-align: center;
-    height: 20%;
+    height: 50%;
     font-size: 1.2rem;
     border: 1px solid white;
     margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-proyect-buttons{
-    margin: 8px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
     border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

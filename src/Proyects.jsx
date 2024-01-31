@@ -16,6 +16,18 @@ const cards = [
     {
         id: 3,
         title: 'fazt youtube'
+    },
+    {
+        id: 4,
+        title: 'fazt Web'
+    },
+    {
+        id: 5,
+        title: 'fazt blog'
+    },
+    {
+        id: 6,
+        title: 'fazt youtube'
     }
 ]
 

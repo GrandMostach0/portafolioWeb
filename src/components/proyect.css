@@ -25,7 +25,7 @@
 
 .button{
     border: 1px solid white;
-    width: 30%;
+    width: 40%;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -35,10 +35,10 @@
 .title-buton{
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .card-proyect-buttons img{
     margin: 0px 8px;
-    width: 18%;
+    width: 20%;
 }

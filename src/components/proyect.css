@@ -5,7 +5,13 @@
 
 .card-proyect-title{
     text-align: center;
+    height: 20%;
     font-size: 1.2rem;
     border: 1px solid white;
     margin: 8px;
+}
+
+.card-proyect-buttons{
+    margin: 8px;
+    border: 1px solid white;
 }

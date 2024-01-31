@@ -8,8 +8,14 @@ export default function proyect(props) {
             <h1>{props.title}</h1>
         </div>
         <div className='card-proyect-buttons'>
-            <button>Boton 1</button>
-            <button>Buton 2</button>
+          <div className='button right'>
+            <a href="">Code</a>
+            <img src="src\assets\icons\github-mark\github-mark-white.png" alt="" />
+          </div>
+          <div className='button left'>
+            <a href="">Code Live</a>
+            <img src="src\assets\icons\icon-computadoraLive.png" alt="" />
+          </div>
         </div>
     </div>
   )

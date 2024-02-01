@@ -3,7 +3,9 @@ import Menu from './Menu';
 import Cuerpo from './Cuerpo';
 import About from './About';
 import Proyects from './Proyects';
+import Skills from './Skills';
 import './menu.css';
+import './cuerpo.css';
 
 function App(){
     return(
@@ -15,6 +17,7 @@ function App(){
             <Cuerpo />
             <About  />
             <Proyects />
+            <Skills />
         </div>
     );
 }

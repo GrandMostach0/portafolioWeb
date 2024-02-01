@@ -1,6 +1,7 @@
 import React from 'react'
 import './proyects.css';
 import './about.css';
+import './skills.css';
 
 export default function Skills() {
   return (

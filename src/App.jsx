@@ -4,6 +4,7 @@ import Cuerpo from './Cuerpo';
 import About from './About';
 import Proyects from './Proyects';
 import Skills from './Skills';
+import Footer from './components/Footer';
 import './menu.css';
 import './cuerpo.css';
 
@@ -18,6 +19,7 @@ function App(){
             <About  />
             <Proyects />
             <Skills />
+            <Footer />
         </div>
     );
 }

@@ -1,7 +1,10 @@
 import React from 'react'
+import './proyects.css';
 
 export default function Skills() {
   return (
-    <div>Skills</div>
+    <section className='container-proyects'>
+        
+    </section>
   )
 }

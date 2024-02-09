@@ -8,14 +8,19 @@ import Footer from './components/Footer';
 import BurgerMenu from './components/ButtonBurgerMenu';
 import './menu.css';
 import './cuerpo.css';
+import './app.css';
 
 function App(){
     return(
         <div>
             <header className="menu">
                 <img id="logoPersonal" src="src\assets\icons\i.svg" alt="imagen" />
-                <Menu/>
-                <BurgerMenu/>
+                <div className='menu-noBurger'>
+                    <Menu/>
+                </div>
+                <div className='burger'>                    
+                    <BurgerMenu/>
+                </div>
             </header>
             <Cuerpo />
             <About  />

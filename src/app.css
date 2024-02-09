@@ -1,0 +1,11 @@
+.burger{
+    @media (min-width: 800px) {
+        display: none;
+    }
+}
+
+.menu-noBurger{
+    @media (max-width: 800px){
+        display: none;
+    }
+}

@@ -22,8 +22,12 @@
     align-items: center;
 }
 
-.menu-opciones li{
+.links{
     list-style: none;
+
+    @media (min-width: 500px){
+        display: block;
+    }
 }
 
 .menu-opciones a{

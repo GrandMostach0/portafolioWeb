@@ -4,7 +4,7 @@ import './menu.css';
 function Menu(){
     return(
         <nav className="menu-opciones">
-            <ul>
+            <ul className='links'>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">proyects</a></li>

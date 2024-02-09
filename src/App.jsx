@@ -5,6 +5,7 @@ import About from './About';
 import Proyects from './Proyects';
 import Skills from './Skills';
 import Footer from './components/Footer';
+import BurgerMenu from './components/ButtonBurgerMenu';
 import './menu.css';
 import './cuerpo.css';
 
@@ -14,6 +15,7 @@ function App(){
             <header className="menu">
                 <img id="logoPersonal" src="src\assets\icons\i.svg" alt="imagen" />
                 <Menu/>
+                <BurgerMenu/>
             </header>
             <Cuerpo />
             <About  />

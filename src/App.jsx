@@ -6,6 +6,7 @@ import Proyects from './Proyects';
 import Skills from './Skills';
 import Footer from './components/Footer';
 import BurgerMenu from './components/ButtonBurgerMenu';
+import Contact from './components/ContactForm';
 import './menu.css';
 import './cuerpo.css';
 import './app.css';
@@ -26,6 +27,7 @@ function App(){
             <About  />
             <Proyects />
             <Skills />
+            <Contact />            
             <Footer />
         </div>
     );

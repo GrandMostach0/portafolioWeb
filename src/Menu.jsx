@@ -3,15 +3,18 @@ import './menu.css';
 
 function Menu(){
     return(
-        <nav className="menu-opciones">
-            <ul className='links'>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">proyects</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">download cv</a></li>
-            </ul>
+        <>
+        <nav className='nav-container'>
+
+            <div className='links'>
+                <a href="#">Inicio</a>
+                <a href="#">about</a>
+                <a href="#">proyects</a>
+                <a href="#">Contact</a>
+                <a href="#">download cv</a>
+            </div>
         </nav>
+        </>
     );
 }
 

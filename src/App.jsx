@@ -14,15 +14,7 @@ import './app.css';
 function App(){
     return(
         <div>
-            <header className="menu">
-                <img id="logoPersonal" src="src\assets\icons\i.svg" alt="imagen" />
-                <div className='menu-noBurger'>
-                    <Menu/>
-                </div>
-                <div className='burger'>                    
-                    <BurgerMenu/>
-                </div>
-            </header>
+            <Menu/>
             <Cuerpo />
             <About  />
             <Proyects />

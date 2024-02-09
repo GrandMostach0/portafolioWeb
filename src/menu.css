@@ -20,14 +20,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @media(max-width: 800px) {
+            border: 1px solid red;
+            position: absolute;
+            top: 500px;
+            left: 0;
+    }
 }
 
 .links{
     list-style: none;
-
-    @media (min-width: 500px){
-        display: block;
-    }
 }
 
 .menu-opciones a{

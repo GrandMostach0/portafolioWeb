@@ -33,9 +33,9 @@
     width: 40px;
 }
 
-@media (max-width: 600px){
+@media (min-width: 768px){
     .about-title h2{
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     #logo-personal-marca{

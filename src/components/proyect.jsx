@@ -1,4 +1,5 @@
 import React from 'react';
+import LogoGit from '../assets/icons/github-mark/github-mark-white.svg';
 import './proyect.css';
 
 export default function proyect(props) {
@@ -11,7 +12,7 @@ export default function proyect(props) {
           
           <div className='button'>
             <a className='title-buton' href="">Code</a>
-            <img src="src\assets\icons\github-mark\github-mark-white.png" alt="" />
+            <img src={LogoGit} alt="icono-git/hub" />
           </div>
         </div>
     </div>

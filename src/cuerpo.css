@@ -7,11 +7,9 @@
     padding: 2%;
 }
 
-
-
 #foto-personal{
     margin-top: 30px;
-    width: 50%;
+    width: 35%;
     border-radius: 40%;
 }
 
@@ -67,8 +65,8 @@ button{
         justify-content: space-around;
     }
 
-    .presentacion img{
-        min-width: 5%;
+    #foto-personal{
+        min-width: 200px;
     }
 
     .nombre-presentacion{
@@ -76,15 +74,15 @@ button{
     }
 
     .titulos{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .parrafos{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .seccion-sociales-botones img{
-        width: 10%;
+        width: 12%;
     }
 
     .seccion-sociales-botones button{

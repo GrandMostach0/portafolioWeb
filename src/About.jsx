@@ -1,4 +1,5 @@
 import React from 'react';
+import LogoPersonal from './assets/icons/i.svg';
 import './main.css';
 import './cuerpo.css';
 import './about.css';
@@ -13,7 +14,7 @@ function Cuerpo2(){
                 </div>
                 <p className='parrafos about-p'>Me gusta diseñar y desarollar páginas web o aplicaciones web, actualmente estoy trabajando en pequeños proyectos que me han ayudado a mejorar mis habilidades tanto de diseño como desarrollador web.<strong>¡Espero te guste mi portafolio!</strong></p>
                 <div className="marca">
-                    <img id="logo-personal-marca" src="src\assets\icons\i.svg" alt="logo-personal" />
+                    <img id="logo-personal-marca" src={LogoPersonal} alt="logo-personal" />
                 </div>
             </div>
         </section>

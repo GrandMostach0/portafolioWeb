@@ -73,6 +73,10 @@ button{
         font-size: 1.2rem;
     }
 
+    .presentacion-text{
+        margin-top: -50px;
+    }
+
     .titulos{
         font-size: 2rem;
     }

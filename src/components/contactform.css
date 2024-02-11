@@ -7,62 +7,74 @@
 }
 
 .contact{
-    width: 50%;
+    width: 40%;
     padding: 1rem;
     border: 1px solid green;
 }
 
 .formulario{
-    width: 80%;
+    width: 60%;
     padding: 1rem;
     border: 1px solid white;
+    text-align: right;
 }
 
+.formulario label, input {
+    display: block;
+}
+
+/*ESTILOS PARA EL INPUT DEL NAME AND EMAIL*/
+.wrapper{
+    width: 48%;
+    height: auto;
+}
+
+.lbl-nombre{
+    font-size: 0.9rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 16px 0px;
+}
+
+.wrapper input{
+    width: 100%;
+    height: 40px;
+    background: none;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    white-space: 2px;
+}
+
+/*Estilo del responsive*/
+.container-textarea{
+    margin-top: 5px;
+}
 .textarea-responsive{
     border: 1px solid red;
-    margin: 10px 0px;
+    margin: 2px 0px;
     width: 100%;
-    min-height: 100px;
+    min-height: 120px;
     resize: none;
     padding: 5px 8px;
 }
 
 .separador-form-div-name-email{
     padding: 5px;
-    border: 1px solid blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.form-div-name-email{
-    width: 49%;
-    position: relative;
-    height: 40px;
-}
-
-.form-div-name-email input{
-    background: none;
-    height: 100%;
-    width: 100%;
-    border: none;
-    color: white;
-    font-size: 1rem;
-    border-bottom: 2px solid silver;
-}
-
-.form-div-name-email input:focus ~ label
-.form-div-name-email input:focus ~ label{
-    transform: translateY(-20px);
-    font-size: 15px;
-    color: #4158d0;
-}
-
-.form-div-name-email label{
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    color: gray;
-    pointer-events: none;
-    transition: all 0.3s ease;
+/*estilo del boton*/
+.sendMessage{
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    margin: 10px auto;
 }

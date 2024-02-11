@@ -1,5 +1,5 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
+import { set, useForm } from 'react-hook-form';
 import FotoPersonal from '../assets/images/foto.png';
 import LogoGit from '../assets/icons/github-mark/github-mark-white.svg';
 import LogoLinkedlin from '../assets/icons/icon-linkedlin.svg';
@@ -17,6 +17,7 @@ function ContactForm() {
   const onSubmit = (data) =>{
     console.log(data);
   }
+
 
   return (
     <div className='separador'>
@@ -52,9 +53,11 @@ function ContactForm() {
           <p>More information contact:</p>
           <div className='container-info'>
             <div className='info'>
-              <CopyToClipboard text='mi text a pegar'>
-                <p>Copy me!!</p>
-              </CopyToClipboard>
+              <>
+                <CopyToClipboard text='mi text a pegar'>
+                  <p>Copy me!!</p>
+                </CopyToClipboard>
+              </>
             </div>
             <div className='info'>
 

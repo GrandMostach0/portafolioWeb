@@ -1,0 +1,68 @@
+.container-form-contact{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.contact{
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid green;
+}
+
+.formulario{
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid white;
+}
+
+.textarea-responsive{
+    border: 1px solid red;
+    margin: 10px 0px;
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    padding: 5px 8px;
+}
+
+.separador-form-div-name-email{
+    padding: 5px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-div-name-email{
+    width: 49%;
+    position: relative;
+    height: 40px;
+}
+
+.form-div-name-email input{
+    background: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-bottom: 2px solid silver;
+}
+
+.form-div-name-email input:focus ~ label
+.form-div-name-email input:focus ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+}
+
+.form-div-name-email label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: gray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}

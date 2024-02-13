@@ -14,8 +14,8 @@
 
 .links{
     position: absolute;
-    top: -700px;
-    left: -2000px;
+    top: -100px;
+    left: 0px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -42,7 +42,7 @@
     left: 0;
     right: 0;
     text-align: center;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
     animation: blur linear both;
     a{
         color: white;

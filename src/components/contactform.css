@@ -7,13 +7,13 @@
 }
 
 .contact{
-    width: 40%;
+    width: 30%;
     padding: 1rem;
     border: 1px solid green;
 }
 
 .formulario{
-    width: 60%;
+    width: 70%;
     padding: 1rem;
     border: 1px solid white;
     text-align: right;
@@ -77,4 +77,31 @@
     color: black;
     background-color: white;
     margin: 10px auto;
+}
+
+.contact .contact-title{
+    font-size: 3rem;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.contact p{
+    font-size: 1rem;
+    margin: 2px 0px;
+}
+
+.contact .info{
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+
+.contact .info p{
+    letter-spacing: 1px;
+}
+
+.contact h4{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin: 2px 0px;
 }

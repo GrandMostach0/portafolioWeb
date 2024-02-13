@@ -14,6 +14,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import {Toaster, toast} from 'react-hot-toast';
 
 import { useState } from 'react'; 
+import styled from 'styled-components';
 
 function ContactForm() {
 
@@ -56,18 +57,43 @@ function ContactForm() {
         <div className='contact'>
           <h2 className='contact-title'>Let's Talk</h2>
           <p>More information contact:</p>
+          <p>¡Touch to copy!</p>
 
-          <div className='container-info'>
-            <div className='info'>
+          <div className='container'>
+            <div className='info info-sep'>
               <h4>Email: </h4>
-              <CopyToClipboard text='facebook'>
-                <p onClick={() => toast('Texto Copiado')}>Kreedlegend0@gmail.com</p>
+              <CopyToClipboard text='kreedlegend0@gmail.com'>
+                <p 
+                onClick={() => toast('Texto Copiado',
+                {position: "bottom-center",
+                style: {
+                  border: '2px solid white',
+                  padding: '1rem',
+                  fontSize: '1rem',
+                  fontWeight: 'bold',
+                  background: 'black',
+                  color: 'white'
+                }})}>
+                  Kreedlegend0@gmail.com
+                </p>
               </CopyToClipboard>
             </div>
             <div className='info'>
               <h4>Phone: </h4>
               <CopyToClipboard text='+52 9994552047'>
-                <p onClick={() => toast('Texto Copiado')}>+52 9994552047</p>
+                <p 
+                onClick={() => toast('Texto Copiado',
+                {position: "bottom-center",
+                style: {
+                  border: '2px solid white',
+                  padding: '1rem',
+                  fontSize: '1rem',
+                  fontWeight: 'bold',
+                  background: 'black',
+                  color: 'white'
+                }})}>
+                  +52 9994552047
+                </p>
               </CopyToClipboard>
             </div>
             <Toaster />

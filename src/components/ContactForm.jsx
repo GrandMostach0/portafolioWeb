@@ -9,7 +9,12 @@ import './contactform.css';
 
 //componente para relalizar el cipboard
 import { CopyToClipboard } from 'react-copy-to-clipboard';
- 
+
+//import para realizar una notificacion usando react-hot-toast
+import {Toaster, toast} from 'react-hot-toast';
+
+import { useState } from 'react'; 
+
 function ContactForm() {
 
   const {register, handleSubmit} = useForm ();
@@ -51,17 +56,21 @@ function ContactForm() {
         <div className='contact'>
           <h2 className='contact-title'>Let's Talk</h2>
           <p>More information contact:</p>
+
           <div className='container-info'>
             <div className='info'>
-              <>
-                <CopyToClipboard text='mi text a pegar'>
-                  <p>Copy me!!</p>
-                </CopyToClipboard>
-              </>
+              <h4>Email: </h4>
+              <CopyToClipboard text='facebook'>
+                <p onClick={() => toast('Texto Copiado')}>Kreedlegend0@gmail.com</p>
+              </CopyToClipboard>
             </div>
             <div className='info'>
-
+              <h4>Phone: </h4>
+              <CopyToClipboard text='+52 9994552047'>
+                <p onClick={() => toast('Texto Copiado')}>+52 9994552047</p>
+              </CopyToClipboard>
             </div>
+            <Toaster />
             <div className="info cards">
               <section className='seccion-sociales-botones'>
                     <a href="https://github.com/GrandMostach0" target='_blank'><img src={LogoGit} alt="git-hub"/></a>

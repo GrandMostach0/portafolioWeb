@@ -62,6 +62,7 @@
     min-height: 120px;
     resize: none;
     padding: 5px 8px;
+    background: none;
 }
 
 .separador-form-div-name-email{
@@ -104,4 +105,14 @@
     font-weight: bold;
     color: white;
     margin: 2px 0px;
+}
+
+@media(max-width: 768px) {
+    .contact{
+        display: none;
+    }
+
+    .formulario{
+        width: 100%;
+    }
 }

@@ -3,11 +3,16 @@ import LogoPersonal from './assets/icons/i.svg';
 import './main.css';
 import './cuerpo.css';
 import './about.css';
+import 'aos/dist/aos.css';
 
 function Cuerpo2(){
     return(
         <section className='separador'>
-            <div className="container-about">
+            <div 
+            className="container-about"
+            data-aos = "fade-right"
+            data-aos-offset = "4000"
+            data-aos-easing = "ease-in-sine">
                 <div className="about-title">
                     <h1 className='titulos about-t'>Un poco sobre mí</h1>
                     <h2>Hola, Me llamo Victor 👋 </h2>

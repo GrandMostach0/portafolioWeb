@@ -19,12 +19,7 @@ function App(){
         <div>
             <Menu/>
             <Cuerpo />
-            <div 
-            data-aos = "fade-right"
-            data-aos-offset = "300"
-            data-aos-easing = "ease-in-sine">
-                <About  />
-            </div>
+            <About  />
             <Proyects />
             <Skills />
             <Contact />

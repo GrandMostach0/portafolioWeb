@@ -10,9 +10,9 @@ function Cuerpo2(){
         <section className='separador'>
             <div 
             className="container-about"
-            data-aos = "fade-right"
-            data-aos-offset = "4000"
-            data-aos-easing = "ease-in-sine">
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div className="about-title">
                     <h1 className='titulos about-t'>Un poco sobre mí</h1>
                     <h2>Hola, Me llamo Victor 👋 </h2>

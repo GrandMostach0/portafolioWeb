@@ -3,6 +3,7 @@ import Proyect from './components/proyect';
 import './cuerpo.css';
 import './about.css';
 import './proyects.css';
+import 'aos/dist/aos.css';
 
 const cards = [
     {
@@ -38,7 +39,9 @@ function Proyects(){
             <div className="container-proyects-cards">
                 {
                     cards.map(proyect => (
-                        <Proyect key={proyect.id} title={proyect.title}/>
+                        <div className='card-proyect' key={proyect.id}>
+                            <Proyect key={proyect.id} title={proyect.title}/>
+                        </div>
                     ))
                 }
             </div>

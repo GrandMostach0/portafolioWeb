@@ -4,17 +4,16 @@ import './proyect.css';
 
 export default function proyect(props) {
   return (
-    <div className='card-proyect' key={props.id}>
-        <div className='card-proyect-title'>
-            <h1>{props.title}</h1>
+    <>
+      <div className='card-proyect-title'>
+        <h1>{props.title}</h1>
+      </div>
+      <div className='card-proyect-buttons'>
+        <div className='button'>
+          <a className='title-buton' href="">Code</a>
+          <img src={LogoGit} alt="icono-git/hub" />
         </div>
-        <div className='card-proyect-buttons'>
-          
-          <div className='button'>
-            <a className='title-buton' href="">Code</a>
-            <img src={LogoGit} alt="icono-git/hub" />
-          </div>
-        </div>
-    </div>
+      </div>
+    </>
   )
 }

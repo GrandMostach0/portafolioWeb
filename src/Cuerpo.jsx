@@ -1,4 +1,3 @@
-import React from 'react';
 import FotoPersonal from './assets/images/foto.png';
 import LogoGit from './assets/icons/github-mark/github-mark-white.svg';
 import LogoLinkedlin from './assets/icons/icon-linkedlin.svg';
@@ -8,6 +7,7 @@ import './cuerpo.css';
 import './main.css';
 
 function Cuerpo(){
+
     return(
         <section className='presentacion'>
             <div className='presentacion-text'>

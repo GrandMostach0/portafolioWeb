@@ -10,13 +10,21 @@ import Contact from './components/ContactForm';
 import './menu.css';
 import './cuerpo.css';
 import './app.css';
+import 'aos/dist/aos.css';
 
 function App(){
+
+
     return(
         <div>
             <Menu/>
             <Cuerpo />
-            <About  />
+            <div 
+            data-aos = "fade-right"
+            data-aos-offset = "300"
+            data-aos-easing = "ease-in-sine">
+                <About  />
+            </div>
             <Proyects />
             <Skills />
             <Contact />

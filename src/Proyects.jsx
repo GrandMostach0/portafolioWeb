@@ -29,6 +29,10 @@ const cards = [
     {
         id: 6,
         title: 'fazt youtube'
+    },
+    {
+        id: 7,
+        title: 'fazt Networks'
     }
 ]
 
@@ -39,7 +43,10 @@ function Proyects(){
             <div className="container-proyects-cards">
                 {
                     cards.map(proyect => (
-                        <div className='card-proyect' key={proyect.id}>
+                        <div 
+                        className='card-proyect' 
+                        key={proyect.id}
+                        data-aos = "fade-right">
                             <Proyect key={proyect.id} title={proyect.title}/>
                         </div>
                     ))

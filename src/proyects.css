@@ -3,6 +3,7 @@
     width: 85%;
     padding: 0.5%;
     border: 1px solid blue;
+    overflow: hidden;
 }
 
 .container-proyects-cards{

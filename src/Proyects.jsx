@@ -4,6 +4,7 @@ import './cuerpo.css';
 import './about.css';
 import './proyects.css';
 import 'aos/dist/aos.css';
+import proyect from './components/proyect';
 
 const cards = [
     {
@@ -42,14 +43,18 @@ function Proyects(){
             <h1 className='titulos'>Proyectos</h1>
             <div className="container-proyects-cards">
                 {
-                    cards.map(proyect => (
-                        <div 
-                        className='card-proyect' 
-                        key={proyect.id}
-                        data-aos = "fade-right">
-                            <Proyect key={proyect.id} title={proyect.title}/>
-                        </div>
-                    ))
+                    cards.length === 0 ? (
+                        <div className='card-proyect'>No hay datos</div>
+                    ) : (
+                        cards.map(proyect => (
+                            <div 
+                            className='card-proyect' 
+                            key={proyect.id}
+                            data-aos = "fade-right">
+                                <Proyect key={proyect.id} title={proyect.title}/>
+                             </div>
+                        ))
+                    )
                 }
             </div>
         </section>

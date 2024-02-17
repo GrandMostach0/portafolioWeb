@@ -40,16 +40,21 @@ const skillsList = [
 ]
 
 export default function Skills() {
+
   return (
     <section className='container-proyects'>
         <h1 className='titulos'>Skills</h1>
         <div className='container-skills'>
           {
-            skillsList.map(skill => (
-              <div className='skill' key={skill.id}>
-                <Skill titleSkill={skill.titleSkill}/>
-              </div>
-            ))
+            skillsList.length === 0 ? (
+              <div className='skill'>No hay datos</div>
+            ): (
+              skillsList.map(skill => (
+                <div className='skill' key={skill.id}>
+                  <Skill titleSkill={skill.titleSkill}/>
+                </div>
+              ))
+            )
           }
         </div>
     </section>

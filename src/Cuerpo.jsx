@@ -11,8 +11,8 @@ function Cuerpo(){
     return(
         <section className='presentacion'>
             <div className='presentacion-text'>
-                <h2 className='nombre-presentacion'>Victor Chan 👋</h2>
-                <h1 className='titulos'>Front-end Developer</h1>
+                <h2 className='nombre-presentacion'>Hi, I'm Victor Chan</h2>
+                <h1 className='titulos titulo-cargo'>Front-end Developer</h1>
                 <p className='parrafos'>Focused on creating website and web applications. I like what i do ❤️</p>
                 <section className='seccion-sociales-botones'>
                     <a href="https://github.com/GrandMostach0" target='_blank'><img src={LogoGit} alt="git-hub"/></a>

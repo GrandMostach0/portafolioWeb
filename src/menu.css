@@ -46,6 +46,7 @@
     animation: blur linear both;
     a{
         color: white;
+        border-top: 1px solid grey;
         margin: 1rem;
         font-size: 2rem;
         display: block;

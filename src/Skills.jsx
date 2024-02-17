@@ -51,11 +51,10 @@ const skillsList = [
 export default function Skills() {
 
   return (
-    <section 
-    className='container-proyects'
-    data-aos = "fade-left">
+    <section className='container-proyects'>
         <h1 className='titulos'>Skills</h1>
-        <div className='container-skills'>
+        <div 
+        className='container-skills' data-aos = "fade-right">
           {
             skillsList.length === 0 ? (
               <div className='skill'>No hay datos</div>

@@ -5,7 +5,6 @@ import About from './About';
 import Proyects from './Proyects';
 import Skills from './Skills';
 import Footer from './components/Footer';
-import BurgerMenu from './components/ButtonBurgerMenu';
 import Contact from './components/ContactForm';
 import './menu.css';
 import './cuerpo.css';
@@ -13,10 +12,10 @@ import './app.css';
 import 'aos/dist/aos.css';
 
 function App(){
-
-
     return(
         <div>
+            <div className='BackgroundSnippet'>
+            </div>
             <Menu/>
             <Cuerpo />
             <About  />

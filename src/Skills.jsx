@@ -3,6 +3,7 @@ import Skill from './components/Skill';
 import './proyects.css';
 import './about.css';
 import './skills.css';
+import 'aos/dist/aos.css';
 
 const skillsList = [
   {
@@ -36,13 +37,23 @@ const skillsList = [
   {
     id: 8,
     titleSkill: 'React'
+  },
+  {
+    id: 9,
+    titleSkill: 'CSS'
+  },
+  {
+    id: 10,
+    titleSkill: 'JavaScript'
   }
 ]
 
 export default function Skills() {
 
   return (
-    <section className='container-proyects'>
+    <section 
+    className='container-proyects'
+    data-aos = "fade-left">
         <h1 className='titulos'>Skills</h1>
         <div className='container-skills'>
           {

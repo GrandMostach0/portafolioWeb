@@ -1,9 +1,12 @@
 .container-proyects{
     margin: 2% auto;
     width: 85%;
-    padding: 0.5%;
-    border: 1px solid blue;
+    padding: 1% 2%;
     overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 34px 31px 27px 13px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.501);
+    margin-bottom: 100px;
 }
 
 .container-proyects-cards{

@@ -1,6 +1,5 @@
 .container-skills{
     margin: auto;
-    border: 1px solid white;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 2px;
@@ -11,9 +10,17 @@
 }
 
 .skill{
-    border: 1px solid red;
     margin: 10px;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
+    background: none;
+    color: white;
+    border-radius: 35px;
+    border: 1px solid rgba(201, 106, 225, 0.3);
+    box-shadow: inset -20px -6px 67px 11px rgba(174, 12, 219, 0.1);
+}
+
+.skill:hover{
+    transform: scale(1.1);
 }
 
 .skill h4{

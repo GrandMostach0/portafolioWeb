@@ -4,16 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
 }
 
 .container-about{
     box-shadow: 34px 31px 27px 13px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.329);
+    border: 2px solid rgb(82, 5, 121);
     text-align: center;
     width: 80%;
-    border-radius: 3rem;
-    padding: 30px;
+    border-radius: 2rem;
+    padding: 60px 30px;
 }
 
 .container-about h1{
@@ -22,7 +21,7 @@
 
 .container-about h2{
     font-size: 2rem;
-    color: blueviolet;
+    color: rgb(106, 225, 146);
     margin: 10px;
 }
 

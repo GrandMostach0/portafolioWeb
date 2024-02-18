@@ -24,6 +24,7 @@ function Cuerpo(){
                     <button>Contacto</button>
                     <button>Descargar CV</button>
                 </section>
+
             </div>
             <img id='foto-personal' src={FotoPersonal} alt="photoLead" />
         </section>

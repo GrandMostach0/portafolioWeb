@@ -57,7 +57,7 @@ function ContactForm() {
         <div className='contact'>
           <h2 className='contact-title'>Let's Talk</h2>
           <p>More information contact:</p>
-          <p>¡Touch to copy!</p>
+          <p><strong>¡Touch to copy!</strong></p>
 
           <div className='container'>
             <div className='info info-sep'>

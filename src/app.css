@@ -3,6 +3,5 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    border: 1px solid white;
     background-image: linear-gradient(to bottom, #23112b, #211129, #201126, #1e1124, #1d1122, #181121, #131120, #0f111e, #05111a, #000f15, #000d0f, #020908);
 }

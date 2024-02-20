@@ -1,0 +1,87 @@
+.nav-container{
+    border-top: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    animation: blur linear both;
+    animation-timeline: scroll();
+    animation-range: 0 600px;
+}
+
+.links{
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    @media(min-width: 768px) {
+        position: initial;
+        margin: 0;
+        a {
+            font-size: 1rem;
+            color: blue;
+            display: inline;
+        }
+    }
+}
+
+.links.active{
+    background-color: red;
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease;
+    animation: blur linear both;
+    a{
+        color: white;
+        border-top: 1px solid grey;
+        margin: 1rem;
+        font-size: 2rem;
+        display: block;
+    }
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1.3rem;
+    font-size: 1.5rem;
+}
+
+#logoPersonal{
+    width: 45px;
+}
+
+@keyframes blur {
+    to {
+        border: 1px solid rgba(79, 69, 111, 0.5);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 
+        0px 5px 50px -5px rgba(0, 0, 0, 0.1),
+        0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.menuBurgerDiv{
+    @media(min-width: 768px){
+        display: none;
+    }
+}

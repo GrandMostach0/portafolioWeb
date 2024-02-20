@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import Logo from '../assets/icons/i.svg';
-import MenuBurger from './ButtonBurgerMenu';
+import Logo from './assets/icons/i.svg';
+import MenuBurger from './components/ButtonBurgerMenu';
+import './menu.css';
 
 function Menu(){
     const [clicked, setClicked] = useState(false);
@@ -11,7 +12,7 @@ function Menu(){
     }
     return(
         <>
-        <nav className='border- border-t-0 fixed w-full py-4 flex items-center justify-between'>
+        <nav className='nav-container'>
             <img id='logoPersonal' src={Logo} alt="LogoPersonal" />
             <div className={`links ${clicked ? 'active' : ''}`}>
                 <a onClick={handleClick} href="#">Inicio</a>

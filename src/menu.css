@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px 1rem;
+    padding: 0.6rem 1rem;
 
     animation: blur linear both;
     animation-timeline: scroll();
@@ -23,7 +23,7 @@
         position: initial;
         margin: 0;
         a {
-            font-size: 1rem;
+            font-size: 0.8rem;
             color: blue;
             display: inline;
         }
@@ -47,7 +47,7 @@
         color: white;
         border-top: 1px solid grey;
         margin: 1rem;
-        font-size: 2rem;
+        font-size: 1.6rem;
         display: block;
     }
 }

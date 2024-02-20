@@ -6,6 +6,12 @@ import LogoTwitter from './assets/icons/icon-twitter.svg';
 import './cuerpo.css';
 import './main.css';
 
+import './components/icons/GitHubIcon';
+import GitHubIcon from './components/icons/GitHubIcon';
+import LinkedinIcon from './components/icons/LinkedinIcon';'./components/icons/LinkedinIcon';
+import BehanceIcon from './components/icons/BehanceIcon';
+import TwitterIcon from './components/icons/TwitterIcon';
+
 function Cuerpo(){
 
     return(
@@ -20,16 +26,16 @@ function Cuerpo(){
                     <p className='parrafos'>Soy un apacionado del desarrollo Web y la Ciberseguridad. Mi fascinación por crear experiencias digitales y garantizar la información me impulsa explorar constantemente prácticas seguras.</p>
                     <section className='seccion-sociales-botones'>
                         <a href="https://github.com/GrandMostach0" target='_blank'>
-                            <img src={LogoGit} alt="git-hub"/>
+                            <GitHubIcon color={"#fff"}/>
                         </a>
                         <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'>
-                            <img src={LogoLinkedlin} alt="linkedln"/>
+                            <LinkedinIcon color={"#fff"} />
                         </a>
                         <a href="https://www.behance.net/victorchanva" target='_blank'>
-                            <img src={LogoBehance} alt="behance"/>
+                            <BehanceIcon color={"#fff"} />
                         </a>
                         <a href="#">
-                            <img src={LogoTwitter} alt="twitter"/>
+                            <TwitterIcon color={"#fff"} />
                         </a>
                     </section>
                     <section className='seccion-sociales-botones seccion-botones'>

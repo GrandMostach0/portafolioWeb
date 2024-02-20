@@ -6,23 +6,23 @@ import Proyects from './Proyects';
 import Skills from './Skills';
 import Footer from './components/Footer';
 import Contact from './components/ContactForm';
-import './menu.css';
-import './cuerpo.css';
 import './app.css';
 import 'aos/dist/aos.css';
 
 function App(){
     return(
-        <div>
-            <div className='BackgroundSnippet'>
-            </div>
+        <div className='App'>
             <Menu/>
-            <Cuerpo />
-            <About  />
-            <Proyects />
-            <Skills />
-            <Contact />
-            <Footer />
+
+            <div className="container-app">
+                <Cuerpo />
+                <Proyects />
+                <About  />
+                <Skills />
+                <Contact />
+                <Footer />
+            </div>
+            
         </div>
     );
 }

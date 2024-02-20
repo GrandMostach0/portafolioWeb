@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Onest Variable", system-ui, 'Segoe UI';
 }
 
 /* width */
@@ -27,8 +27,6 @@
 }
 
 body{
+    background-image: linear-gradient(to bottom, #23112b, #211129, #201126, #1e1124, #1d1122, #181121, #131120, #0f111e, #05111a, #000f15, #000d0f, #020908);
     color: white;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: grey;
 }

@@ -1,11 +1,10 @@
 .nav-container{
-    border-top: 0px;
     position: fixed;
     width: 100%;
-    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem;
 
     animation: blur linear both;
     animation-timeline: scroll();
@@ -80,8 +79,8 @@
     }
 }
 
-.menuBurgerDiv{
-    @media(min-width: 768px){
+.menuBurgerDiv {
+    @media (min-width: 768px) {
         display: none;
     }
 }

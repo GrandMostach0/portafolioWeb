@@ -3,16 +3,31 @@ h1, h2, p{
 }
 
 .presentacion{
+    border: 1px solid white;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 2%;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #foto-personal{
     width: 360px;
     border-radius: 40%;
+    box-shadow: 34px 31px 27px 13px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.501);
+}
+
+.presentacion-text {
+    padding: 30px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 65%;
 }
 
 .nombre-presentacion{
@@ -20,12 +35,6 @@ h1, h2, p{
     margin-top: 10px;
     font-size: 3.5rem;
     color: beige;
-}
-
-.presentacion-text{
-    padding: 20px;
-    border-radius: 30px;
-    width: 60%;
 }
 
 .titulos{
@@ -39,7 +48,9 @@ h1, h2, p{
 }
 
 .parrafos{
-    font-size: 1.8rem;
+    margin: 5px 0px;
+    font-size: 1.4rem;
+    text-wrap: pretty;
 }
 
 .seccion-sociales-botones{
@@ -101,11 +112,6 @@ button:hover{
     .nombre-presentacion{
         margin-top: 0px;
         font-size: 1.6rem;
-    }
-
-    .presentacion-text{
-        margin-top: -50px;
-        width: 90%;
     }
 
     .titulo-cargo{

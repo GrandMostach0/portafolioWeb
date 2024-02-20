@@ -3,7 +3,6 @@ h1, h2, p{
 }
 
 .presentacion{
-    border: 1px solid white;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,23 +10,24 @@ h1, h2, p{
 }
 
 .container{
+    padding: 40px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 40px;
+    box-shadow: 0px 0px 66px 28px rgba(0, 0, 0, 0.4);
 }
 
 #foto-personal{
-    width: 360px;
+    width: 300px;
     border-radius: 40%;
-    box-shadow: 34px 31px 27px 13px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(128, 128, 128, 0.501);
+    margin-right: 20px;
 }
 
 .presentacion-text {
     padding: 30px 20px;
-    border: 1px solid white;
     border-radius: 30px;
-    width: 65%;
+    width: 90%;
 }
 
 .nombre-presentacion{
@@ -47,6 +47,22 @@ h1, h2, p{
     font-size: 2.4rem;
 }
 
+.des{
+    margin: 10px;
+}
+
+.btnDestacado{
+    font-size: 0.8rem;
+    font-weight: normal;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(34, 17, 42);
+    padding: 5px 10px;
+    color: white;
+    z-index: -1;
+    position: relative;
+}
+
 .parrafos{
     margin: 5px 0px;
     font-size: 1.4rem;
@@ -54,7 +70,7 @@ h1, h2, p{
 }
 
 .seccion-sociales-botones{
-    margin: 5px 1px;
+    margin: 5px 0px;
     padding: 5px 0px;
 }
 
@@ -78,7 +94,6 @@ button{
     padding: 8px 20px;
     text-decoration: none;
     text-transform: uppercase;
-
     border: 0 solid;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
     outline: 1px solid rgba(255, 255, 255, 0.5);
@@ -99,38 +114,74 @@ button:hover{
 }
 
 @media (max-width: 768px) {
-    .presentacion{
+
+    .container{
         flex-direction: column-reverse;
         text-align: center;
         justify-content: space-around;
+        width: 90%;
+        height: 80%;
     }
 
     #foto-personal{
-        width: 230px;
+        width: 180px;
     }
 
     .nombre-presentacion{
         margin-top: 0px;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .titulo-cargo{
         margin-top: 5px;
         margin-bottom: 5px;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .parrafos{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .seccion-sociales-botones img{
-        min-width: 15px;
+        width: 35px;
     }
 
     .seccion-sociales-botones button{
-        font-size: 1rem;
-        margin: 5px 1em;
-        padding: 5px 10px;
+        font-size: 0.8rem;
+        padding: 5px 8px;
+    }
+}
+
+.btnDestacado::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        #4dff00, #215f07, #51ff00, #215f07,
+        #4dff00, #215f07, #51ff00, #215f07
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    z-index: -2;
+    filter: blur(5px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing{
+    0%{
+        background-position: 0 0;
+    }
+
+    50%{
+        background-position: 400% 0;
+    }
+
+    100%{
+        background-position: 0 0;
     }
 }

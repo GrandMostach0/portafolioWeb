@@ -14,12 +14,23 @@ function Cuerpo(){
                 <div className='presentacion-text'>
                     <h2 className='nombre-presentacion'>Hi, I'm Victor Chan</h2>
                     <h1 className='titulos titulo-cargo'>Front-end Developer</h1>
+                    <p className='des'>
+                        <span className='btnDestacado'>disponible para trabajar</span>
+                    </p>
                     <p className='parrafos'>Soy un apacionado del desarrollo Web y la Ciberseguridad. Mi fascinación por crear experiencias digitales y garantizar la información me impulsa explorar constantemente prácticas seguras.</p>
                     <section className='seccion-sociales-botones'>
-                        <a href="https://github.com/GrandMostach0" target='_blank'><img src={LogoGit} alt="git-hub"/></a>
-                        <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'><img src={LogoLinkedlin} alt="linkedln"/></a>
-                        <a href="https://www.behance.net/victorchanva" target='_blank'><img src={LogoBehance} alt="behance"/></a>
-                        <a href="#"><img src={LogoTwitter} alt="twitter"/></a>
+                        <a href="https://github.com/GrandMostach0" target='_blank'>
+                            <img src={LogoGit} alt="git-hub"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'>
+                            <img src={LogoLinkedlin} alt="linkedln"/>
+                        </a>
+                        <a href="https://www.behance.net/victorchanva" target='_blank'>
+                            <img src={LogoBehance} alt="behance"/>
+                        </a>
+                        <a href="#">
+                            <img src={LogoTwitter} alt="twitter"/>
+                        </a>
                     </section>
                     <section className='seccion-sociales-botones seccion-botones'>
                         <button>Contacto</button>
@@ -27,7 +38,7 @@ function Cuerpo(){
                     </section>
 
                 </div>
-                <img id='foto-personal' src={FotoPersonal} alt="photoLead" />
+                <img id='foto-personal' src={FotoPersonal} alt="photoLead"/>
             </div>
         </section>
     );

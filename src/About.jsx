@@ -1,7 +1,6 @@
 import React from 'react';
 import LogoPersonal from './assets/icons/i.svg';
-import './main.css';
-import './cuerpo.css';
+import FotoPersonal from './assets/images/foto.png'
 import './about.css';
 import 'aos/dist/aos.css';
 

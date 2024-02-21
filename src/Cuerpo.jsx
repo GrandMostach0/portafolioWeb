@@ -1,16 +1,14 @@
 import FotoPersonal from './assets/images/foto.png';
-import LogoGit from './assets/icons/github-mark/github-mark-white.svg';
-import LogoLinkedlin from './assets/icons/icon-linkedlin.svg';
-import LogoBehance from './assets/icons/icon-behance.svg';
-import LogoTwitter from './assets/icons/icon-twitter.svg';
-import './cuerpo.css';
-import './main.css';
-
-import './components/icons/GitHubIcon';
 import GitHubIcon from './components/icons/GitHubIcon';
 import LinkedinIcon from './components/icons/LinkedinIcon';'./components/icons/LinkedinIcon';
 import BehanceIcon from './components/icons/BehanceIcon';
 import TwitterIcon from './components/icons/TwitterIcon';
+
+import {Typewriter} from 'react-simple-typewriter';
+
+import './cuerpo.css';
+import './main.css';
+
 
 function Cuerpo(){
 
@@ -19,7 +17,16 @@ function Cuerpo(){
             <div className="container">
                 <div className='presentacion-text'>
                     <h2 className='nombre-presentacion'>Hi, I'm Victor Chan</h2>
-                    <h1 className='titulos titulo-cargo'>Front-end Developer</h1>
+                    <h1 className='titulos titulo-cargo'>
+                        <Typewriter 
+                        words={['Front-End Developer', 'Cybersecurity', 'DevOps']}
+                        loop={true}
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={150}
+                        deleteSpeed={150}
+                        delaySpeed={1000}/>
+                    </h1>
                     <p className='des'>
                         <span className='btnDestacado'>disponible para trabajar</span>
                     </p>
@@ -44,7 +51,7 @@ function Cuerpo(){
                     </section>
 
                 </div>
-                <img id='foto-personal' src={FotoPersonal} alt="photoLead"/>
+                <img className='foto-personal' src={FotoPersonal} alt="photoLead"/>
             </div>
         </section>
     );

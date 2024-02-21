@@ -30,7 +30,7 @@ function Cuerpo(){
                     <p className='des'>
                         <span className='btnDestacado'>disponible para trabajar</span>
                     </p>
-                    <p className='parrafos'>Soy un apacionado del desarrollo Web y la Ciberseguridad. Mi fascinación por crear experiencias digitales y garantizar la información me impulsa explorar constantemente prácticas seguras.</p>
+                    <p className='parrafos'>¡Hola! Soy un principiante apasionado por el desarrollo web y la ciberseguridad. Estoy dando mis primeros pasos en este emocionante mundo. Mi deseo es crear soluciones digitales seguras. ¡Listo para explorar y crecer en esta apasionante travesía!</p>
                     <section className='seccion-sociales-botones'>
                         <a href="https://github.com/GrandMostach0" target='_blank'>
                             <GitHubIcon color={"#fff"}/>

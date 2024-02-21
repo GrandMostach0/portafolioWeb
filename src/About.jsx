@@ -17,7 +17,7 @@ function Cuerpo2(){
                     <h1 className='titulos about-t'>Acerca de mí</h1>
                     <h2>Hola, Me llamo Victor 👋 </h2>
                 </div>
-                <p className='parrafos about-p'>¡Hola! Soy un estudiante apasionado de Ingeniería en Sistemas Computacionales con un profundo interés en el desarrollo web y la ciberseguridad. Mi trayectoria incluye habilidades sólidas en desarrollo frontend y backend, respaldadas por conocimientos en DevOps para optimizar la implementación de sistemas. Mi enfoque proactivo en la ciberseguridad garantiza la creación de soluciones digitales robustas y seguras. Estoy emocionado por contribuir al mundo digital con mi pasión por la tecnología, mi experiencia en desarrollo y mi compromiso con la seguridad cibernética. <strong>¡Listo para enfrentar desafíos y seguir aprendiendo en este apasionante viaje tecnológico!</strong>.</p>
+                <p className='parrafos about-p'>¡Hola! Soy un estudiante de Ingeniería en Sistemas Computacionales, y como aprendiz, estoy sumergiéndome en el fascinante universo del desarrollo web y la ciberseguridad. Mis primeros pasos incluyen explorar tanto el frontend como el backend. Además, tengo conocimientos básicos en DevOps, buscando optimizar procesos de implementación. Mi entusiasmo y compromiso como principiante me motivan a aprender y crecer en este emocionante viaje. <strong>¡Listo para absorber conocimientos y aportar en el mundo digital!</strong></p>
                 <div className="marca">
                     <img id="logo-personal-marca" src={LogoPersonal} alt="logo-personal" />
                 </div>

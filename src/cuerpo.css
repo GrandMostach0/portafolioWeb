@@ -124,12 +124,18 @@ button:hover{
         padding: 0px;
         flex-direction: column-reverse;
         text-align: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 90%;
         height: 85%;
     }
 
+    .presentacion-text{
+        padding: 5px;
+        margin-top: -20px;
+    }
+
     .foto-personal{
+        margin-top: 20px;
         width: 180px;
     }
 

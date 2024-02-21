@@ -40,7 +40,7 @@ const cards = [
 function Proyects(){
     return(
         <section className='container-proyects'>
-            <h1 className='titulos'>Proyectos</h1>
+            <h1 className='titulos titulos-separadores'>Proyectos</h1>
             <div className="container-proyects-cards">
                 {
                     cards.length === 0 ? (

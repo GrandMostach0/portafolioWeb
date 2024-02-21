@@ -17,3 +17,8 @@
     padding: 10px;
     grid-auto-flow: dense;
 }
+
+.titulos-separadores {
+    letter-spacing: 1px;
+    margin: 10px;
+}

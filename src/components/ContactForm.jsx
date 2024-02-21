@@ -1,11 +1,11 @@
 import React from 'react';
 import { set, useForm } from 'react-hook-form';
-import FotoPersonal from '../assets/images/foto.png';
-import LogoGit from '../assets/icons/github-mark/github-mark-white.svg';
-import LogoLinkedlin from '../assets/icons/icon-linkedlin.svg';
-import LogoBehance from '../assets/icons/icon-behance.svg';
-import LogoTwitter from '../assets/icons/icon-twitter.svg';
-import './contactform.css';
+import GitHubIcon from '../components/icons/GitHubIcon';
+import LinkedinIcon from '../components/icons/LinkedinIcon';
+import BehanceIcon from '../components/icons/BehanceIcon';
+import TwitterIcon from '../components/icons/TwitterIcon';
+
+import './contactForm.css';
 
 //componente para relalizar el cipboard
 import { CopyToClipboard } from 'react-copy-to-clipboard';
@@ -14,7 +14,6 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import {Toaster, toast} from 'react-hot-toast';
 
 import { useState } from 'react'; 
-import styled from 'styled-components';
 
 function ContactForm() {
 
@@ -59,11 +58,12 @@ function ContactForm() {
           <p>More information contact:</p>
           <p><strong>¡Touch to copy!</strong></p>
 
-          <div className='container'>
+          <div className='container-contact-info'>
             <div className='info info-sep'>
-              <h4>Email: </h4>
+              <br />
+              <h4>Email : </h4>
               <CopyToClipboard text='kreedlegend0@gmail.com'>
-                <p 
+                <p className='clip'
                 onClick={() => toast('Texto Copiado',
                 {position: "bottom-center",
                 style: {
@@ -78,8 +78,9 @@ function ContactForm() {
                 </p>
               </CopyToClipboard>
             </div>
+            <br />
             <div className='info'>
-              <h4>Phone: </h4>
+              <h4>Phone : </h4>
               <CopyToClipboard text='+52 9994552047'>
                 <p 
                 onClick={() => toast('Texto Copiado',
@@ -95,15 +96,24 @@ function ContactForm() {
                   +52 9994552047
                 </p>
               </CopyToClipboard>
+              <br />
             </div>
             <Toaster />
             <div className="info cards">
               <section className='seccion-sociales-botones'>
-                    <a href="https://github.com/GrandMostach0" target='_blank'><img src={LogoGit} alt="git-hub"/></a>
-                    <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'><img src={LogoLinkedlin} alt="linkedln"/></a>
-                    <a href="https://www.behance.net/victorchanva" target='_blank'><img src={LogoBehance} alt="behance"/></a>
-                    <a href="#"><img src={LogoTwitter} alt="twitter"/></a>
-                </section>
+                        <a href="https://github.com/GrandMostach0" target='_blank'>
+                            <GitHubIcon color={"#fff"}/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'>
+                            <LinkedinIcon color={"#fff"} />
+                        </a>
+                        <a href="https://www.behance.net/victorchanva" target='_blank'>
+                            <BehanceIcon color={"#fff"} />
+                        </a>
+                        <a href="#">
+                            <TwitterIcon color={"#fff"} />
+                        </a>
+                    </section>
             </div>
           </div>
         </div>

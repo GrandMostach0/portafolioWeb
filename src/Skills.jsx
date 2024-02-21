@@ -51,8 +51,8 @@ const skillsList = [
 export default function Skills() {
 
   return (
-    <section className='container-proyects'>
-        <h1 className='titulos'>Skills</h1>
+    <section className='container-proyect'>
+        <h1 className='titulos titulos-separadores'>Skills</h1>
         <div 
         className='container-skills' data-aos = "fade-right">
           {

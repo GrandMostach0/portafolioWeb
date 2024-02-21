@@ -1,3 +1,13 @@
+.container-proyect{
+    border: 1px solid white;
+    margin: 120px 0px;
+}
+
+.titulos-separadores{
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
 .container-skills{
     margin: auto;
     display: grid;
@@ -10,13 +20,13 @@
 }
 
 .skill{
-    margin: 10px;
-    padding: 0.5rem 1rem;
+    margin: 15px 10px;
+    padding: 0.5rem 0rem;
     background: none;
     color: white;
     border-radius: 35px;
     border: 1px solid rgba(201, 106, 225, 0.3);
-    box-shadow: inset -20px -6px 67px 11px rgba(174, 12, 219, 0.1);
+    box-shadow: 3px 4px 28px 12px rgba(0, 0, 0, 0.3);
 }
 
 .skill:hover{

@@ -1,6 +1,6 @@
 import FotoPersonal from './assets/images/foto.png';
 import GitHubIcon from './components/icons/GitHubIcon';
-import LinkedinIcon from './components/icons/LinkedinIcon';'./components/icons/LinkedinIcon';
+import LinkedinIcon from './components/icons/LinkedinIcon';
 import BehanceIcon from './components/icons/BehanceIcon';
 import TwitterIcon from './components/icons/TwitterIcon';
 

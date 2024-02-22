@@ -13,6 +13,12 @@ function App(){
     return(
         <div className='App appfinal'>
             <Menu/>
+            <div className="circulo"></div>
+            <div className="circulo c-1"></div>
+            <div className="circulo c-2"></div>
+            <div className="circulo c-3"></div>
+            <div className="circulo c-4"></div>
+            <div className="circulo c-5"></div>
 
             <div className="container-app">
                 <Cuerpo />

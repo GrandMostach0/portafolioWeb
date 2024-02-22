@@ -8,6 +8,24 @@
     margin-bottom: 100px;
 }
 
+.container-menu-proyectos{
+    width: 380px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+}
+
+.container-menu-proyectos p{
+    cursor: pointer;
+}
+
 .card-proyect{
     border: 1px solid rgba(0, 128, 0, 0.405);
     height: 90%;
@@ -50,5 +68,15 @@
 
     .tall {
         grid-row: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-menu-proyectos{
+        width: 85%;
+
+        & p{
+            font-size: 0.9rem;
+        }
     }
 }

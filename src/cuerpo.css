@@ -162,6 +162,11 @@ button:hover{
         font-size: 0.7rem;
         padding: 5px 8px;
     }
+
+    .custom-icon{
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .btnDestacado::before{

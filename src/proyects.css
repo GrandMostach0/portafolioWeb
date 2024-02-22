@@ -9,7 +9,8 @@
 }
 
 .card-proyect{
-    border: 1px solid green;
+    border: 1px solid rgba(0, 128, 0, 0.405);
+    height: 90%;
     border-radius: 20px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.3);
@@ -17,10 +18,15 @@
     backdrop-filter: blur(10px);
 }
 
+.card-proyect:hover{
+    background-color: rgba(82, 5, 121, 0.2);
+    border: px solid rgba(82, 5, 121, 0.9);
+}
+
 .container-proyects-cards{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-auto-rows: minmax(200px auto);
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-auto-rows: 32rem;
     gap: 20px;
     padding: 10px;
     grid-auto-flow: dense;
@@ -39,6 +45,7 @@
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row-reverse;
+        height: 60%;
     }
 
     .tall {

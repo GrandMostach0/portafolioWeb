@@ -6,10 +6,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.8rem 1rem;
-
+    /*
     animation: blur linear both;
     animation-timeline: scroll();
     animation-range: 0 600px;
+    */
 }
 
 .links{

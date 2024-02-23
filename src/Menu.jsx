@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Logo from './assets/icons/i.svg';
 import MenuBurger from './components/ButtonBurgerMenu';
 import './menu.css';
 
@@ -13,7 +12,7 @@ function Menu(){
     return(
         <>
         <nav className='nav-container'>
-            <img id='logoPersonal' src={Logo} alt="LogoPersonal" />
+            <img id='logoPersonal' src="" alt="LogoPersonal" />
             <div className={`links ${clicked ? 'active' : ''}`}>
                 <a onClick={handleClick} href="#">Inicio</a>
                 <a onClick={handleClick} href="#">about</a>

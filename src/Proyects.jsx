@@ -1,10 +1,9 @@
 import React from 'react';
 import Proyect from './components/proyect';
-import './cuerpo.css';
-import './about.css';
 import './proyects.css';
 import 'aos/dist/aos.css';
-import proyect from './components/proyect';
+
+const opcionesMenu = ['Front-End', 'Ciberseguridad', 'Devops'];
 
 const cards = [
     {
@@ -18,9 +17,7 @@ const cards = [
         id: 2,
         title: 'fazt blog',
         category: 'FullStack',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
-        classNameP: 'wide'
-        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.'
     },
     {
         id: 3,
@@ -28,12 +25,6 @@ const cards = [
         category: 'FullStack',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
         classNameP: 'wide'
-    },
-    {
-        id: 4,
-        title: 'fazt Web',
-        category: 'FullStack',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.'
     }
 ]
 
@@ -42,9 +33,9 @@ function Proyects(){
         <section className='container-proyects'>
             <h1 className='titulos titulos-separadores'>Proyectos</h1>
             <div className='container-menu-proyectos'>
-                <p>Front-End</p>
-                <p>Ciberseguriad</p>
-                <p>Devops</p>
+                {opcionesMenu.map((opcion, index) => (
+                    <p key={index}>{opcion}</p>
+                ))}
             </div>
             <div className="container-proyects-cards">
                 {

@@ -1,9 +1,6 @@
 import React from 'react'
 import Skill from './components/Skill';
-import './proyects.css';
-import './about.css';
 import './skills.css';
-import 'aos/dist/aos.css';
 
 const skillsList = [
   {
@@ -54,7 +51,7 @@ export default function Skills() {
     <section className='container-proyect'>
         <h1 className='titulos titulos-separadores'>Skills</h1>
         <div 
-        className='container-skills' data-aos = "fade-right">
+        className='container-skills'>
           {
             skillsList.length === 0 ? (
               <div className='skill'>No hay datos</div>

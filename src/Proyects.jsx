@@ -1,70 +1,89 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Proyect from './components/proyect';
+import ErrorIcon from './components/icons/ErrorIcon';
 import './proyects.css';
 import 'aos/dist/aos.css';
 
 const opcionesMenu = ['Front-End', 'Ciberseguridad', 'Devops'];
 
 const cards = [
-    {
-        id: 1,
-        categoryType: 'frontend',
-        category: 'FullStack',
-        title: 'fazt Web',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.'
-    },
-    {
-        id: 2,
-        title: 'fazt blog',
-        category: 'FullStack',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.'
-    },
-    {
-        id: 3,
-        title: 'fazt youtube',
-        category: 'FullStack',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
-        classNameP: 'wide'
-    }
-]
+  {
+    id: 1,
+    categoryType: 'Front-End',
+    title: 'fazt Web Front-End',
+    category: 'FullStack',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
+  },
+  {
+    id: 2,
+    categoryType: '',
+    title: 'fazt blog Ciberseguridad',
+    category: 'FullStack',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
+  },
+  {
+    id: 3,
+    categoryType: 'Devops',
+    title: 'fazt youtube Devops',
+    category: 'FullStack',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
+    classNameP: 'wide',
+  },
+];
 
 function Proyects() {
-    // Agregar la clase 'wide' a cada tercer proyecto
-    cards.forEach((proyect, index) => {
-        if ((index + 1) % 3 === 0) {
-            proyect.classNameP = 'wide';
-        }
-    });
+  const [selectedOption, setSelectedOption] = useState(null);
 
-    return (
-        <section className='container-proyects'>
-            <h1 className='titulos titulos-separadores'>Proyectos</h1>
-            <div className='container-menu-proyectos'>
-                {opcionesMenu.map((opcion, index) => (
-                    <p key={index}>{opcion}</p>
-                ))}
+  const handleOptionSelected = (option) => {
+    setSelectedOption(option);
+  };
+
+  const filteredCards = selectedOption
+    ? cards.filter((proyect) => proyect.categoryType.toLowerCase() === selectedOption.toLowerCase())
+    : cards;
+
+  return (
+    <section className='container-proyects'>
+      <h1 className='titulos titulos-separadores'>Proyectos</h1>
+      <div className='container-menu-proyectos'>
+        {opcionesMenu.map((opcion, index) => (
+          <p
+            key={index}
+            className={selectedOption === opcion.toLowerCase() ? 'selected' : ''}
+            onClick={() => handleOptionSelected(opcion.toLowerCase())}
+          >
+            {opcion}
+          </p>
+        ))}
+      </div>
+      <div className='container-proyects-cards'>
+        {filteredCards.length === 0 ? (
+          <div className='card-proyect wide'>
+            <div className="card-proyect-null">
+                <div className='container-null'>
+                    <ErrorIcon color={"#fff"} classNameP={'error-card'}/>
+                    <p>No hay información 😕</p>
+                </div>
             </div>
-            <div className="container-proyects-cards">
-                {cards.length === 0 ? (
-                    <div className='card-proyect'>No hay datos</div>
-                ) : (
-                    cards.map((proyect) => (
-                        <div
-                            className={`card-proyect ${proyect.classNameP || 'default-class'}`}
-                            key={proyect.id}
-                        >
-                            <Proyect
-                                category={proyect.category}
-                                title={proyect.title}
-                                description={proyect.description}
-                                claseName={proyect.classNameP}
-                            />
-                        </div>
-                    ))
-                )}
+          </div>
+        ) : (
+          filteredCards.map((proyect, index) => (
+            <div
+              className={`card-proyect ${index % 3 === 2 ? 'wide' : 'default'}`}
+              key={proyect.id}
+            >
+              <Proyect
+                category={proyect.category}
+                title={proyect.title}
+                description={proyect.description}
+                claseName={proyect.classNameP}
+              />
             </div>
-        </section>
-    );
+          ))
+        )}
+      </div>
+    </section>
+  );
 }
 
 export default Proyects;

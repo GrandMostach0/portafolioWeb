@@ -52,6 +52,18 @@
     margin: 10px;
 }
 
+.error-card{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.container-null{
+    text-align: center;
+    padding: 50px;
+    height: 100%;
+}
+
 @media (min-width: 600px) {
 
     .wide {
@@ -60,7 +72,7 @@
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row-reverse;
-        height: 60%;
+        height: 100%;
     }
 
     .tall {
@@ -70,7 +82,7 @@
 
 @media (max-width: 768px) {
     .container-menu-proyectos{
-        width: 85%;
+        width: 100%;
 
         & p{
             font-size: 0.9rem;

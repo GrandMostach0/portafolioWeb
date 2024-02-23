@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import MenuBurger from './components/ButtonBurgerMenu';
+import LogoPersonal from './components/icons/LogoPersonal';
 import './menu.css';
 
 function Menu(){
@@ -12,7 +13,7 @@ function Menu(){
     return(
         <>
         <nav className='nav-container'>
-            <img id='logoPersonal' src="" alt="LogoPersonal" />
+            <LogoPersonal color={"#fff"}/>
             <div className={`links ${clicked ? 'active' : ''}`}>
                 <a onClick={handleClick} href="#">Inicio</a>
                 <a onClick={handleClick} href="#">about</a>

@@ -27,7 +27,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, #23112b, #211129, #201126, #1e1124, #1d1122, #181121, #131120, #0f111e, #05111a, #000f15, #000d0f, #020908);
+    background-image: linear-gradient(to right bottom, #0b020f, #100514, #140818, #170b1b, #1a0e1f, #170f21, #131122, #0e1223, #02121e, #001117, #000e10, #020908);
     color: white;
     overflow-x: hidden;
 }

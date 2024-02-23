@@ -11,7 +11,7 @@
 }
 
 .card-proyect-title-description{
-    margin: 5px 15px;
+    margin: 10px 15px;
     padding: 2px;
 }
 
@@ -51,7 +51,7 @@
 
 .container-tags{
     padding: 5px 0px;
-    margin-top: 5px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -60,7 +60,7 @@
 }
 
 .card-proyect-buttons{
-    margin-top: 1px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

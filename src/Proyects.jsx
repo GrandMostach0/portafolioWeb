@@ -13,13 +13,17 @@ const cards = [
     title: 'fazt Web Front-End',
     category: 'FullStack',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
+    urlGitHub: 'https://github.com/GrandMostach0',
+    urlPreview: 'https://google.com/',
   },
   {
     id: 2,
-    categoryType: '',
+    categoryType: 'Ciberseguridad',
     title: 'fazt blog Ciberseguridad',
     category: 'FullStack',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
+    urlGitHub: 'https://github.com/GrandMostach0',
+    urlPreview: 'https://google.com/',
   },
   {
     id: 3,
@@ -27,12 +31,14 @@ const cards = [
     title: 'fazt youtube Devops',
     category: 'FullStack',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
+    urlGitHub: 'https://github.com/GrandMostach0',
+    urlPreview: 'https://google.com/',
     classNameP: 'wide',
   },
 ];
 
 function Proyects() {
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState('Front-End');
 
   const handleOptionSelected = (option) => {
     setSelectedOption(option);
@@ -76,6 +82,8 @@ function Proyects() {
                 category={proyect.category}
                 title={proyect.title}
                 description={proyect.description}
+                urlGitHub={proyect.urlGitHub}
+                urlPreview={proyect.urlPreview}
                 claseName={proyect.classNameP}
               />
             </div>

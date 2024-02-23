@@ -33,10 +33,14 @@ export default function proyect(props) {
 
         <div className='card-proyect-buttons'>
           <div className='button'>
-            <a className='title-buton' href=""> <GitHubIcon color={"#ececec"} classNameP={'resize-icon'} /> Code</a>
+            <a className='title-buton' href={props.urlGitHub} target='_blank'> 
+            <GitHubIcon color={"#ececec"} classNameP={'resize-icon'} /> Code
+            </a>
           </div>
           <div className='button'>
-            <a className='title-buton' href=""> <BrowserIcon color={"#ececec"} classNameP={'resize-icon'}/> Preview </a>
+            <a className='title-buton' href={props.urlPreview} target='_blank'> 
+            <BrowserIcon color={"#ececec"} classNameP={'resize-icon'}/> Preview 
+            </a>
           </div>
         </div>
       </div>

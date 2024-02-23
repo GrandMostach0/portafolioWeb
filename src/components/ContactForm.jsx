@@ -50,7 +50,15 @@ function ContactForm() {
             <textarea name="message" className='textarea-responsive' {...register('message')}/>
           </div>
 
-          <button className='sendMessage' type='submit'>Enviar</button>
+          <button className='sendMessage' type='submit' onClick={() => toast.success('Email Enviado!',
+          {position: 'bottom-center',
+            style: {
+              border: '1px solid rgba(28, 241, 4, 0.2)',
+              backgroundColor: 'rgba(82, 5, 121, 0.5)',
+              color: 'white'
+            }})}
+          >Enviar
+          </button>
         </form>
         
         <div className='contact'>
@@ -99,7 +107,7 @@ function ContactForm() {
               <br />
             </div>
             <Toaster />
-            <div className="info cards">
+            <div className="cards">
               <section className='seccion-sociales-botones'>
                         <a href="https://github.com/GrandMostach0" target='_blank'>
                             <GitHubIcon color={"#fff"}/>

@@ -3,13 +3,18 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.312);
 }
 
 .contact{
     width: 30%;
+    height: 100%;
     padding: 1rem;
-    border: 1px solid green;
+    background-color: rgba(137, 43, 226, 0.2);
     border-radius: 35px;
+    margin-right: 10px;
 }
 
 .formulario{
@@ -23,6 +28,7 @@
 
 .formulario label, input {
     display: block;
+    font-weight: bold;
 }
 
 /*ESTILOS PARA EL INPUT DEL NAME AND EMAIL*/
@@ -40,24 +46,25 @@
 }
 
 .wrapper input{
+    transition: all 0.5s ease;
     width: 100%;
     height: 40px;
-    background: none;
+    background: rgba(0, 0, 0, 0.392);
     color: white;
     padding: 2px 5px;
     border: none;
-    border-bottom: 2px solid white;
+    border-radius: 8px;
     outline: 0;
     font-size: 1rem;
     letter-spacing: 1px;
     white-space: 2px;
-    transition: all 0.5s ease;
 }
 
 /*Estilo del responsive*/
 .container-textarea{
     margin-top: 5px;
 }
+
 .textarea-responsive{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 2px 0px;
@@ -65,18 +72,19 @@
     min-height: 120px;
     resize: none;
     padding: 5px 8px;
-    background: none;
     border: none;
-    border-bottom: 2px solid white;
+    background: rgba(0, 0, 0, 0.392);
+    border-radius: 8px;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 1rem;
+    font-weight: bold;
     outline: 0;
     transition: all 0.5 ease;
 }
 
 .textarea-responsive:hover, .formulario input:hover{
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid rgb(218, 226, 226);
 }
 
 .separador-form-div-name-email{

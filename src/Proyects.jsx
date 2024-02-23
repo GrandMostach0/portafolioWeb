@@ -4,12 +4,12 @@ import ErrorIcon from './components/icons/ErrorIcon';
 import './proyects.css';
 import 'aos/dist/aos.css';
 
-const opcionesMenu = ['Front-End', 'Ciberseguridad', 'Devops'];
+const opcionesMenu = ['Web', 'Ciberseguridad', 'Devops'];
 
 const cards = [
   {
     id: 1,
-    categoryType: 'Front-End',
+    categoryType: 'Web',
     title: 'fazt Web Front-End',
     category: 'FullStack',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.',
@@ -38,7 +38,7 @@ const cards = [
 ];
 
 function Proyects() {
-  const [selectedOption, setSelectedOption] = useState('Front-End');
+  const [selectedOption, setSelectedOption] = useState('Web');
 
   const handleOptionSelected = (option) => {
     setSelectedOption(option);

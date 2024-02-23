@@ -28,8 +28,15 @@ const cards = [
     }
 ]
 
-function Proyects(){
-    return(
+function Proyects() {
+    // Agregar la clase 'wide' a cada tercer proyecto
+    cards.forEach((proyect, index) => {
+        if ((index + 1) % 3 === 0) {
+            proyect.classNameP = 'wide';
+        }
+    });
+
+    return (
         <section className='container-proyects'>
             <h1 className='titulos titulos-separadores'>Proyectos</h1>
             <div className='container-menu-proyectos'>
@@ -38,28 +45,26 @@ function Proyects(){
                 ))}
             </div>
             <div className="container-proyects-cards">
-                {
-                    cards.length === 0 ? (
-                        <div className='card-proyect'>No hay datos</div>
-                    ) : (
-                        cards.map(proyect => (
-
-                            <div 
+                {cards.length === 0 ? (
+                    <div className='card-proyect'>No hay datos</div>
+                ) : (
+                    cards.map((proyect) => (
+                        <div
                             className={`card-proyect ${proyect.classNameP || 'default-class'}`}
-                            key={proyect.id}>
-                                <Proyect
+                            key={proyect.id}
+                        >
+                            <Proyect
                                 category={proyect.category}
                                 title={proyect.title}
                                 description={proyect.description}
-                                claseName={proyect.classNameP}/>
-                            </div>
-
-                        ))
-                    )
-                }
+                                claseName={proyect.classNameP}
+                            />
+                        </div>
+                    ))
+                )}
             </div>
         </section>
-    )
+    );
 }
 
 export default Proyects;

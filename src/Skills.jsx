@@ -1,6 +1,7 @@
 import React from 'react'
 import Skill from './components/Skill';
 import './skills.css';
+import 'aos/dist/aos.css';
 
 const skillsList = [
   {

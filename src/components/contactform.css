@@ -94,13 +94,6 @@
     justify-content: space-between;
 }
 
-/*estilo del boton*/
-.sendMessage{
-    border-radius: 10px;
-    color: black;
-    background-color: white;
-    margin-top: 20px;
-}
 
 .contact .contact-title{
     font-size: 2.3rem;

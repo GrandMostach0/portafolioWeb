@@ -50,7 +50,7 @@ function ContactForm() {
             <textarea name="message" className='textarea-responsive' {...register('message')}/>
           </div>
 
-          <button className='sendMessage' type='submit' onClick={() => toast.success('Email Enviado!',
+          <button type='submit' onClick={() => toast.success('Email Enviado!',
           {position: 'bottom-center',
             style: {
               border: '1px solid rgba(28, 241, 4, 0.2)',

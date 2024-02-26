@@ -20,6 +20,18 @@
     margin-bottom: 10px;
 }
 
+.container-menu-proyectos p{
+    opacity: 0.5;
+    padding: 8px 16px;
+}
+
+.container-menu-proyectos .selected{
+    font-weight: bold;
+    opacity: 1;
+    background-color: rgba(0, 128, 0, 0.3);
+    border-radius: 10px;
+}
+
 .card-proyect{
     border: 1px solid rgba(0, 128, 0, 0.5);
     height: 98%;

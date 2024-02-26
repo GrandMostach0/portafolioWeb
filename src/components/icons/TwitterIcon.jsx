@@ -3,7 +3,7 @@ import React from 'react'
 function TwitterIcon(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" 
-    className="icon icon-tabler icon-tabler-brand-x custom-icon" 
+    className={`icon icon-tabler icon-tabler-brand-x custom-icon ${props.classNameP}`}
     width="35" 
     height="35" 
     viewBox="0 0 24 24" 

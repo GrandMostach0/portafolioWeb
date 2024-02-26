@@ -55,7 +55,7 @@ function Proyects() {
         {opcionesMenu.map((opcion, index) => (
           <p
             key={index}
-            className={selectedOption === opcion.toLowerCase() ? 'selected' : ''}
+            className={`opcion-menu ${selectedOption === opcion.toLowerCase() ? 'selected' : ''}`}
             onClick={() => handleOptionSelected(opcion.toLowerCase())}
           >
             {opcion}

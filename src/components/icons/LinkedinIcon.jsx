@@ -3,7 +3,7 @@ import React from 'react'
 function LinkedinIcon(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" 
-    className="icon icon-tabler icon-tabler-brand-linkedin custom-icon" 
+    className={`icon icon-tabler icon-tabler-brand-linkedin custom-icon ${props.classNameP}`}
     width="40" 
     height="40" 
     viewBox="0 0 24 24" 

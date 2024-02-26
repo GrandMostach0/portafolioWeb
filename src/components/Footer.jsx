@@ -1,17 +1,58 @@
 import React from 'react';
+import GitHubIcon from './icons/GitHubIcon';
+import LinkedinIcon from './icons/LinkedinIcon';
+import BehanceIcon from './icons/BehanceIcon';
+import TwitterIcon from './icons/TwitterIcon';
+import LogoPersonal from './icons/LogoPersonal';
 import './footer.css';
 
+import ReactIcons from './icons/ReactIcons';
+import CSSIcons from './icons/CSSIcons';
 export default function Footer() {
   return (
     <footer className='footer-container'>
       <div className='separador-footer'>
-        <h4>Copyright</h4>
+        <LogoPersonal color={"#fff"}/>
+        <div className='footer-description'>
+          <p>Transformado ideas en realidad a traves de soluciones innovadoras.</p>
+        </div>
+        <section className='seccion-sociales-botones sociales-footer'>
+          <a href="https://github.com/GrandMostach0" target='_blank'>
+            <GitHubIcon classNameP={"icon-footer"} color={"#fff"}/>
+          </a>
+          <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'>
+            <LinkedinIcon classNameP={"icon-footer"} color={"#fff"} />
+          </a>
+          <a href="https://www.behance.net/victorchanva" target='_blank'>
+            <BehanceIcon classNameP={"icon-footer"} color={"#fff"} />
+          </a>
+          <a href="#">
+            <TwitterIcon classNameP={"icon-footer"} color={"#fff"} />
+          </a>
+          </section>
       </div>
       <div className='separador-footer'>
-        <h4>Página hecho con: React</h4>
+        <h4 className="footer-title">navegación</h4>
+        <div className="footer-options">
+          <a href="#">Inicio</a>
+          <a href="#">about</a>
+          <a href="#">proyects</a>
+          <a href="#">Contact</a>
+          <a href="#">download cv</a>
+        </div>
       </div>
       <div className='separador-footer'>
-        <h4>Victor Bernardo Chan Varguez</h4>
+        <h4 className='footer-title'>Sobre esta página</h4>
+        <p>página hecha con:</p>
+        <div className='icon-footer-made'>
+          <CSSIcons size={24}/>
+          <p>CSS</p>
+        </div>
+        <div className='icon-footer-made'>
+          <ReactIcons size={24}/>
+          <p>React</p>
+        </div>
+        <p>por <strong>Victor Bernardo Chan Varguez</strong></p>
       </div>
     </footer>
   )

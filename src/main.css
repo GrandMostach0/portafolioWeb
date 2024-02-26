@@ -27,7 +27,7 @@
 }
 
 body{
-    background-image: linear-gradient(to left top, #0b020f, #100514, #140818, #170b1b, #1a0e1f, #170f21, #131122, #0e1223, #02121e, #001117, #000e10, #020908);
+    background-color: #0c0c12;
     color: white;
     overflow-x: hidden;
 }

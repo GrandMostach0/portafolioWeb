@@ -18,12 +18,12 @@ import {Toaster, toast} from 'react-hot-toast';
 function ContactForm() {
 
   const handleEmail = () => {
-    const emailAddress = "correo@example.com";
+    const emailAddress = "kreedlegend0@gmail.com";
     window.location.href = `mailto:${emailAddress}`;
   };
 
   const handleCall = () => {
-    const phoneNumber = "+1234567890"; // Reemplaza con tu número de teléfono
+    const phoneNumber = "+52 9994552047"; // Reemplaza con tu número de teléfono
     window.location.href = `tel:${phoneNumber}`;
   };
 

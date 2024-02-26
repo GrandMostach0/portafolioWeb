@@ -11,21 +11,16 @@ function Menu(){
         setClicked(!clicked);
     }
     return(
-        <>
         <nav className='nav-container'>
             <LogoPersonal color={"#fff"}/>
-            <div className={`links ${clicked ? 'active' : ''}`}>
-                <a onClick={handleClick} href="#">Inicio</a>
-                <a onClick={handleClick} href="#">about</a>
-                <a onClick={handleClick} href="#">proyects</a>
-                <a onClick={handleClick} href="#">Contact</a>
-                <a onClick={handleClick} href="#">download cv</a>
-            </div>
-            <div className='menuBurgerDiv'>
-                <MenuBurger clicked={clicked} handleClick={handleClick} />
+            <div className="links">
+                <a href="#">Inicio</a>
+                <a href="#">about</a>
+                <a href="#">proyects</a>
+                <a href="#">Contact</a>
+                <a href="#">download cv</a>
             </div>
         </nav>
-        </>
     );
 }
 

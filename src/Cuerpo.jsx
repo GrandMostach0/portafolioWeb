@@ -9,6 +9,20 @@ import {Typewriter} from 'react-simple-typewriter';
 import './cuerpo.css';
 import './main.css';
 
+const handleDownload = () => {
+    const pdfUrl = 'https://pdfobject.com/pdf/sample.pdf';  // Reemplaza con tu URL de PDF
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'curriculum.pdf';  // Reemplaza con el nombre que desees para el archivo
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
+const handleOpenInNewTab = () => {
+    const pdfUrl = 'https://pdfobject.com/pdf/sample.pdf'; // Reemplaza con tu URL de PDF
+    window.open(pdfUrl, '_blank');
+};
 
 function Cuerpo(){
 
@@ -47,7 +61,7 @@ function Cuerpo(){
                     </section>
                     <section className='seccion-sociales-botones seccion-botones'>
                         <button>Contacto</button>
-                        <button>Descargar CV</button>
+                        <button onClick={handleOpenInNewTab}>Descargar CV</button>
                     </section>
 
                 </div>

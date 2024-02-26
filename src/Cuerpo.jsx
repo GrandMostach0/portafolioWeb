@@ -47,16 +47,16 @@ function Cuerpo(){
                     <p className='parrafos'>¡Hola! Soy un principiante apasionado por el desarrollo web y la ciberseguridad. Estoy dando mis primeros pasos en este emocionante mundo. Mi deseo es crear soluciones digitales seguras. ¡Listo para explorar y crecer en esta apasionante travesía!</p>
                     <section className='seccion-sociales-botones'>
                         <a href="https://github.com/GrandMostach0" target='_blank'>
-                            <GitHubIcon color={"#fff"}/>
+                            <GitHubIcon classNameP={"iconsHover"} color={"#fff"}/>
                         </a>
                         <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'>
-                            <LinkedinIcon color={"#fff"} />
+                            <LinkedinIcon classNameP={"iconsHover"} color={"#fff"} />
                         </a>
                         <a href="https://www.behance.net/victorchanva" target='_blank'>
-                            <BehanceIcon color={"#fff"} />
+                            <BehanceIcon classNameP={"iconsHover"} color={"#fff"} />
                         </a>
                         <a href="#">
-                            <TwitterIcon color={"#fff"} />
+                            <TwitterIcon classNameP={"iconsHover"} color={"#fff"} />
                         </a>
                     </section>
                     <section className='seccion-sociales-botones seccion-botones'>

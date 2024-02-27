@@ -10,17 +10,18 @@ function Menu(){
         //cuando esta true lo paso a false y viceversa
         setClicked(!clicked);
     }
-    return(
-        <nav className='nav-container'>
-            <LogoPersonal color={"#fff"}/>
-            <div className="links">
-                <a href="#">Inicio</a>
-                <a href="#">about</a>
-                <a href="#">proyects</a>
-                <a href="#">Contact</a>
-                <a href="#">download cv</a>
-            </div>
-        </nav>
+    return (
+      <nav className="nav-container">
+        <div className='logoPersonalContainer'>
+          <LogoPersonal color={"#fff"} />
+        </div>
+        <div className="links">
+          <a href="#">about</a>
+          <a href="#">proyects</a>
+          <a href="#">Contact</a>
+          <a href="#">download cv</a>
+        </div>
+      </nav>
     );
 }
 

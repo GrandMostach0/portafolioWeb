@@ -51,6 +51,11 @@
 }
 
 @media (max-width: 768px){
+
+    .separador{
+        margin-bottom: 280px;
+    }
+
     .about-title h2{
         font-size: 1rem;
     }

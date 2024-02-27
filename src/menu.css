@@ -7,15 +7,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: none;
 
     animation: blur linear both;
     animation-timeline: scroll();
     animation-range: 0 600px;
-    animation: loadAnimation 1s ease;
 }
 
-.Navbar>.nav-items>a {
+.containerItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Navbar>.containerItems>.nav-items>a {
     color: #ffffff;
     font-size: 1.1rem;
     text-decoration: none;
@@ -24,11 +29,11 @@
     opacity: 0.9;
 }
 
-.Navbar>.nav-items>a:hover {
+.Navbar>.containerItems>.nav-items>a:hover {
     opacity: 1;
 }
 
-.Navbar>.nav-items>a::before {
+.Navbar>.containerItems>.nav-items>a::before {
     content: "";
     position: absolute;
     left: 0;
@@ -40,7 +45,7 @@
     z-index: 99;
 }
 
-.Navbar>.nav-items>a:hover::before {
+.Navbar>.containerItems>.nav-items>a:hover::before {
     width: 100%;
 }
 
@@ -49,7 +54,7 @@
 }
 
 @media (max-width: 768px) {
-    .Navbar>.nav-items {
+    .Navbar>.containerItems>.nav-items {
         z-index: 99;
         position: absolute;
         top: 60px;
@@ -63,11 +68,11 @@
         border: none;
     }
 
-    .Navbar>.nav-items>a::before {
+    .Navbar>.containerItems>.nav-items>a::before {
         background-color: rgb(251, 251, 251);
     }
 
-    .Navbar>.nav-items.open {
+    .Navbar>.containerItems>.nav-items.open {
         transform: translateX(0);
     }
 

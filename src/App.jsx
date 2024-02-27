@@ -26,10 +26,13 @@ function App(){
     storage al refrescar se mantiene los cambios*/
     const [isDark, setIsDark] = useLocalStorage("isDark", preference);
 
+    const toggleTheme = () => {
+      setIsDark(!isDark);
+    }
+
     return (
       <div className="App appfinal" data-theme={isDark ? "dark" : "light"}>
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-        <Menu />
+        <Menu isDark={isDark} toggleTheme={toggleTheme}/>
         <div className="circulo"></div>
         <div className="circulo c-1"></div>
 

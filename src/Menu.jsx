@@ -4,25 +4,25 @@ import LogoPersonal from './components/icons/LogoPersonal';
 import './menu.css';
 
 function Menu(){
-    const [clicked, setClicked] = useState(false);
-
-    const handleClick = () =>{
-        //cuando esta true lo paso a false y viceversa
-        setClicked(!clicked);
-    }
+    const [isOpen, setIsOpen] = useState(false);
     return (
-      <nav className="nav-container">
-        <div className='logoPersonalContainer'>
-          <LogoPersonal color={"#fff"} />
+      <div className="Navbar">
+        <LogoPersonal color={"#fff"}/>
+        <div className={`nav-items ${isOpen && "open"}`}>
+          <a href="/home">Inicio</a>
+          <a href="/about">Acerca de mí</a>
+          <a href="/service">Proyects</a>
+          <a href="/contact">Download CV</a>
         </div>
-        <div className="links">
-          <a href="#">about</a>
-          <a href="#">proyects</a>
-          <a href="#">Contact</a>
-          <a href="#">download cv</a>
+        <div
+          className={`nav-toggle ${isOpen && "open"}`}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <div className="bar"></div>
         </div>
-      </nav>
+      </div>
     );
+
 }
 
 export default Menu;

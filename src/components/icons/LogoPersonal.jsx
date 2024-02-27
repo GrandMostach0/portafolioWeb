@@ -7,8 +7,8 @@ function LogoPersonal(props) {
     className={`custom-icon ${props.classNameP}`}
     id="Capa_1"
     data-name="Capa 1"
-    width="40"
-    height="40"
+    width="45"
+    height="45"
     viewBox="0 0 290 200.29"
     strokeWidth="1.3"
     stroke={props.color}

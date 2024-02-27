@@ -1,8 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Onest Variable", system-ui, 'Segoe UI';
+
+}
+
+:root{
+    --color-text: #fff;
+}
+
+[data-theme="dark"]{
+    --color-text: #e6ff04;
 }
 
 /* width */
@@ -26,8 +35,6 @@
     background: #152575;
 }
 
-body{
-    background-color: #0c0c12;
-    color: white;
+body {
     overflow-x: hidden;
 }

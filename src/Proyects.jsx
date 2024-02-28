@@ -41,7 +41,7 @@ function Proyects() {
   const [selectedOption, setSelectedOption] = useState('Web');
 
   const handleOptionSelected = (option) => {
-    setSelectedOption(option);
+    setSelectedOption(option.toLowerCase());
   };
 
   const filteredCards = selectedOption
@@ -56,7 +56,7 @@ function Proyects() {
           <p
             key={index}
             className={`opcion-menu ${selectedOption === opcion.toLowerCase() ? 'selected' : ''}`}
-            onClick={() => handleOptionSelected(opcion.toLowerCase())}
+            onClick={() => handleOptionSelected(opcion)}
           >
             {opcion}
           </p>

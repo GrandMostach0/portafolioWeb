@@ -30,7 +30,7 @@ function Cuerpo(){
         <section className='presentacion'>
             <div className="container">
                 <div className='presentacion-text'>
-                    <h2 className='nombre-presentacion'>Hi, I'm Victor Chan</h2>
+                    <h2 className='nombre-presentacion'>Hola, soy Victor Chan</h2>
                     <h1 className='titulos titulo-cargo'>
                         <Typewriter 
                         words={['Front-End Developer', 'Cybersecurity', 'DevOps']}

@@ -4,7 +4,7 @@ function LogoPersonal(props) {
   return (
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    className={`custom-icon ${props.classNameP}`}
+    className={`custom-icon custom-icon-personal ${props.classNameP}`}
     id="Capa_1"
     data-name="Capa 1"
     width="45"

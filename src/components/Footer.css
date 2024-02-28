@@ -6,6 +6,7 @@
     gap: 2px;
     grid-auto-flow: dense;
     border-top: 1px solid rgba(0, 128, 0, 0.5);
+    background-color: var(--bg-footer);
 }
 
 .separador-footer {
@@ -30,7 +31,7 @@
 
 .footer-options a{
     text-decoration: none;
-    color: white;
+    color: var(--color-text);
     font-weight: normal;
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -58,7 +59,7 @@ p {
 
 h4{
     font-weight: normal;
-    color: beige;
+    color: var(--color-text);
 }
 
 @media (max-width: 768px){

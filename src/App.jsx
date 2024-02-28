@@ -9,7 +9,6 @@ import Contact from './components/ContactForm';
 import './app.css';
 // Supports weights 100-900
 import '@fontsource-variable/onest';
-import { Toggle } from './components/Toggle';
 
 import useLocalStorage from 'use-local-storage';
 
@@ -18,7 +17,6 @@ function App(){
     const preference = window.matchMedia(
       "(prefers-color-scheme: dark)"
     ).matches;
-    console.log("Preferencia del sistema:", preference);
 
 
     /*
@@ -32,10 +30,9 @@ function App(){
 
     return (
       <div className="App appfinal" data-theme={isDark ? "dark" : "light"}>
-        <Menu isDark={isDark} toggleTheme={toggleTheme}/>
         <div className="circulo"></div>
         <div className="circulo c-1"></div>
-
+        <Menu isDark={isDark} toggleTheme={toggleTheme} />
         <div className="container-app">
           <Cuerpo />
           <Proyects />

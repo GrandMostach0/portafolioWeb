@@ -21,7 +21,7 @@
 }
 
 .Navbar>.containerItems>.nav-items>a {
-    color: #ffffff;
+    color: var(--color-text);
     font-size: 1.1rem;
     text-decoration: none;
     margin: 15px;
@@ -89,7 +89,7 @@
         position: relative;
         width: 32px;
         height: 2px;
-        background: #ffffff;
+        background: var(--color-text);
         transition: all 0.45s ease-in-out;
     }
 
@@ -98,7 +98,7 @@
         content: "";
         position: absolute;
         height: 1px;
-        background: #ffffff;
+        background: var(--color-text);
         border-radius: 2px;
         width: 30%;
         transition: all 0.45s ease-in-out;

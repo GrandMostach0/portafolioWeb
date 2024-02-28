@@ -2,10 +2,12 @@
     max-width: 1200px;
     margin: auto;
     z-index: 10;
+    position: relative;
 }
 .App{
-    background-color: RGB(1, 4, 9);
+    background-color: var(--bg);
     color: var(--color-text);
+    position: relative;
 }
 
 .circulo{
@@ -13,12 +15,12 @@
     width: 280px;
     height: 280px;
     filter: blur(calc(250px/5));
-    background-image: radial-gradient(circle, #103531, #143a36, #17403c, #1b4541, #1f4b47, #1f4b47, #1f4b47, #1f4b47, #1b4541, #17403c, #143a36, #103531);
+    background-image: var(--circle-bg);
     position: fixed;
     top: 15%;
     left: 4%;
-    z-index: -6;
-    opacity: 0.4;
+    z-index: 1;
+    opacity: 0.5;
 }
 
 .c-1{

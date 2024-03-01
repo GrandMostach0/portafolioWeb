@@ -4,7 +4,6 @@ import LinkedinIcon from './icons/LinkedinIcon';
 import BehanceIcon from './icons/BehanceIcon';
 import TwitterIcon from './icons/TwitterIcon';
 import LogoPersonal from './icons/LogoPersonal';
-import './footer.css';
 
 import ReactIcons from './icons/ReactIcons';
 import CSSIcons from './icons/CSSIcon';

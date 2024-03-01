@@ -14,7 +14,7 @@ function Menu({isDark, toggleTheme}){
             <a href="/home">Inicio</a>
             <a href="/about">Acerca de mí</a>
             <a href="/service">Proyects</a>
-            <a href="/contact">Download CV</a>
+            <a href="/contact">Descargar CV</a>
           </div>
         </div>
         <div

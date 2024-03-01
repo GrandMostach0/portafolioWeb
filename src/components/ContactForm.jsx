@@ -27,30 +27,38 @@ function ContactForm() {
     window.location.href = `tel:${phoneNumber}`;
   };
 
-  const {register, handleSubmit} = useForm ();
-
-  const onSubmit = (data) =>{
-    console.log(data);
-  }
-
-
   return (
     <div className="separador">
       <div className="container-form-contact">
-        <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
+        {/* zona especifico para el envio de formualarios */}
+        <form
+          className="formulario"
+          name="FormularioContacto"
+          method="post"
+          data-netlify="true"
+          onSubmit="submit"
+          data-netlify-honeypot="bot-field"
+          autoComplete="off"
+        >
+          <input type="hidden" name="form-name" value="FormularioContacto" />
+
+          <div hidden>
+            <input name="bot-field" />
+          </div>
+
           <div className="separador-form-div-name-email">
             <div className="wrapper">
               <label className="lbl-nombre" htmlFor="name">
                 Nombre
               </label>
-              <input autoComplete="off" type="text" {...register("name")} />
+              <input type="text" name="name" />
             </div>
 
             <div div className="wrapper">
               <label className="lbl-nombre" htmlFor="email">
                 Email
               </label>
-              <input autoComplete="off" type="email" {...register("email")} />
+              <input type="email" name="email" />
             </div>
           </div>
 
@@ -58,28 +66,10 @@ function ContactForm() {
             <label className="lbl-nombre" htmlFor="message">
               Message
             </label>
-            <textarea
-              name="message"
-              className="textarea-responsive"
-              {...register("message")}
-            />
+            <textarea name="message" className="textarea-responsive" />
           </div>
 
-          <button
-            type="submit"
-            onClick={() =>
-              toast.success("Email Enviado!", {
-                position: "bottom-center",
-                style: {
-                  border: "1px solid rgba(28, 241, 4, 0.2)",
-                  backgroundColor: "rgba(82, 5, 121, 0.5)",
-                  color: "white",
-                },
-              })
-            }
-          >
-            Enviar
-          </button>
+          <button type="submit"> Enviar </button>
         </form>
 
         <div className="contact">
@@ -142,10 +132,10 @@ function ContactForm() {
           </div>
           <div className="menuEmail-Phone">
             <br />
-            <p style={{cursor: 'pointer'}} onClick={handleEmail}>
+            <p style={{ cursor: "pointer" }} onClick={handleEmail}>
               <EmailIcon />
             </p>
-            <p style={{cursor: 'pointer'}} onClick={handleCall}>
+            <p style={{ cursor: "pointer" }} onClick={handleCall}>
               <PhoneIcon />
             </p>
             <br />
@@ -156,19 +146,31 @@ function ContactForm() {
           <div className="cards">
             <section className="seccion-sociales-botones">
               <a href="https://github.com/GrandMostach0" target="_blank">
-                <GitHubIcon classNameP={"iconsHover iconsContact"} color={"#fff"} />
+                <GitHubIcon
+                  classNameP={"iconsHover iconsContact"}
+                  color={"#fff"}
+                />
               </a>
               <a
                 href="https://www.linkedin.com/in/victorchanvarguez/"
                 target="_blank"
               >
-                <LinkedinIcon classNameP={"iconsHover iconsContact"} color={"#fff"} />
+                <LinkedinIcon
+                  classNameP={"iconsHover iconsContact"}
+                  color={"#fff"}
+                />
               </a>
               <a href="https://www.behance.net/victorchanva" target="_blank">
-                <BehanceIcon classNameP={"iconsHover iconsContact"} color={"#fff"} />
+                <BehanceIcon
+                  classNameP={"iconsHover iconsContact"}
+                  color={"#fff"}
+                />
               </a>
               <a href="#">
-                <TwitterIcon classNameP={"iconsHover iconsContact"} color={"#fff"} />
+                <TwitterIcon
+                  classNameP={"iconsHover iconsContact"}
+                  color={"#fff"}
+                />
               </a>
             </section>
           </div>

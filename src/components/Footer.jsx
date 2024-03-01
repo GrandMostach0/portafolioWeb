@@ -7,7 +7,7 @@ import LogoPersonal from './icons/LogoPersonal';
 import './footer.css';
 
 import ReactIcons from './icons/ReactIcons';
-import CSSIcons from './icons/CSSIcons';
+import CSSIcons from './icons/CSSIcon';
 export default function Footer() {
   return (
     <footer className="footer-container">

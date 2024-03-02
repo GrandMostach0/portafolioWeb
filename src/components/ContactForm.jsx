@@ -6,7 +6,6 @@ import BehanceIcon from '../components/icons/BehanceIcon';
 import TwitterIcon from '../components/icons/TwitterIcon';
 import EmailIcon from './icons/EmailIcon';
 import PhoneIcon from './icons/PhoneIcon';
-
 import './contactForm.css';
 
 //componente para relalizar el cipboard

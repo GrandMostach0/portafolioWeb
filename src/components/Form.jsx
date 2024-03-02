@@ -1,18 +1,29 @@
-import React from 'react';
-import '../styles/formulario.css';
+import React, { useState } from "react";
+import "../styles/formulario.css";
 
 function Form() {
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      // Lógica para manejar el envío del formulario
-      console.log("Formulario enviado"); // Añade un mensaje de prueba para verificar si la función se está ejecutando
-    };
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Aquí puedes agregar la lógica para manejar el envío del formulario
+    console.log("Formulario enviado:", formData);
+  };
 
   return (
-    <div className="cenetred-form">
+    <div className="centered-form">
       <form
-        className="formulario2"
+        className="formulario"
         name="FormularioContacto"
         method="post"
         data-netlify="true"
@@ -21,22 +32,24 @@ function Form() {
       >
         <input type="hidden" name="form-name" value="FormularioContacto" />
         <div hidden>
-          <input name="bot-field" />
+          <label>
+            No llenar: <input name="bot-field" onChange={handleChange} />
+          </label>
         </div>
 
         <div className="form-group">
           <label htmlFor="name">Nombre</label>
-          <input type="text" name="name" required />
+          <input type="text" name="name" onChange={handleChange} required />
         </div>
 
         <div className="form-group">
           <label htmlFor="email">Email</label>
-          <input type="email" name="email" required />
+          <input type="email" name="email" onChange={handleChange} required />
         </div>
 
         <div className="form-group">
           <label htmlFor="message">Mensaje</label>
-          <textarea name="message" required></textarea>
+          <textarea name="message" onChange={handleChange} required></textarea>
         </div>
 
         <div className="form-group">
@@ -47,4 +60,4 @@ function Form() {
   );
 }
 
-export default Form
+export default Form;

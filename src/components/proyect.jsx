@@ -2,7 +2,6 @@ import React from 'react';
 import PlaceDilios from '../assets/images/placeDelirios.png';
 import GitHubIcon from './icons/GitHubIcon';
 import BrowserIcon from './icons/BrowserIcon';
-import './proyect.css';
 
 import SqlIcon from './icons/SqlIcon';
 import HtmlIcon from './icons/HtmlIcon';

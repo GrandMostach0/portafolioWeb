@@ -1,103 +1,204 @@
 .presentacion{
     height: 100vh;
-    border: 1px solid red;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 2%;
+    justify-content: center;
 }
 
-.presentacion img{
-    width: 25%;
+.container{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    box-shadow: var(--box-shadow-container);
+    transition: all 0.5s linear;
+    animation: loadAnimation 2.5s ease forwards .2s;
 }
 
-#foto-personal{
+.foto-personal{
+    width: 300px;
+    padding: 5px;
     border-radius: 40%;
+    margin-right: 20px;
+}
+
+
+.presentacion-text {
+    padding: 30px 20px;
+    border-radius: 30px;
+    width: 95%;
 }
 
 .nombre-presentacion{
-    line-height: 5px;
+    line-height: auto;
     margin-top: 10px;
-    font-size: 1.8rem;
-    color: beige;
+    font-size: 3.5rem;
 }
 
-.presentacion-text{
-    padding: 5px;
-    width: 60%;
+.custom-icon{
+    stroke: var(--color-text);
+}
+
+.custom-icon-personal{
+    fill: var(--color-text);
 }
 
 .titulos{
-    color: blueviolet;
+    color: var(--titulo-cargo-color);
     font-weight: bold;
-    font-size: 2.8rem;
-    margin: 10px 0px;
+    font-size: 2rem;
 }
 
+.titulo-cargo{
+    margin: 5px 0px;
+    font-size: 2.4rem;
+}
+
+.des{
+    margin-top: 10px;
+}
+
+.btnDestacado{
+    font-size: 0.8rem;
+    font-weight: normal;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--bg);
+    padding: 5px 10px;
+    color: var(--color-text);
+    z-index: -1;
+    position: relative;
+}
+
+
 .parrafos{
-    font-size: 1.3rem;
-    letter-spacing: 1.5px;
+    margin: 10px 0px;
+    font-size: 1.4rem;
+    text-wrap: pretty;
 }
 
 .seccion-sociales-botones{
-    margin: 5px;
-    padding: 5px 0px;
+    margin-top: 10px;
 }
 
-.seccion-sociales-botones img{
-    width: 50px;
-    margin: 10px;
+.seccion-sociales-botones a{
+    padding: 5px;
+    margin: 2px 10px;
+}
+
+.seccion-sociales-botones a:hover{
+    transform: scale(1.2);
 }
 
 button{
-    margin: 15px 20px;
-    padding: 15px 20px;
-    border-radius: 50px;
-    color: white;
-    font-weight: bold;
-    font-size: 1.1rem;
-    background: rgb(131, 100, 221);
-    border: none;
+    color: var(--color-text);
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 8px 20px;
+    padding: 8px 20px;
+    background: transparent;
+    border: 2px solid green;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
 }
 
-@media (max-width: 600px) {
+button:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 0 0 15px green;
+}
 
-    .presentacion{
+@keyframes loadAnimation{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container{
+        padding: 0px;
         flex-direction: column-reverse;
-        justify-content: center;
-    }
-
-    .nombre-presentacion{
-        font-size: 1.1rem;
-    }
-
-    #foto-personal{
-        margin: 10px;
+        text-align: center;
+        justify-content: space-evenly;
+        width: 905%;
+        height: 85%;
     }
 
     .presentacion-text{
-        text-align: center;
+        padding: 5px;
+        margin-top: -20px;
     }
 
-    .titulos {
+    .foto-personal{
+        margin-top: 20px;
+        width: 180px;
+    }
+
+    .custom-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nombre-presentacion{
+        margin-top: 0px;
         font-size: 1.5rem;
     }
 
-    .parrafos {
-        font-size: 1rem;
+    .titulo-cargo{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.3rem;
     }
 
-    .seccion-sociales-botones img{
-        width: 10%;
-    }
-
-    .seccion-sociales-botones button{
-        padding: 4px 8px;
-        margin: 2px;
+    .parrafos{
         font-size: 0.9rem;
     }
 
-    .seccion-botones{
-        width: 100%;
+    .seccion-sociales-botones button{
+        font-size: 0.7rem;
+        padding: 5px 8px;
+    }
+}
+
+.btnDestacado::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        #4dff00, #215f07, #51ff00, #215f07,
+        #4dff00, #215f07, #51ff00, #215f07
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    z-index: -2;
+    filter: blur(5px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing{
+    0%{
+        background-position: 0 0;
+    }
+
+    50%{
+        background-position: 400% 0;
+    }
+
+    100%{
+        background-position: 0 0;
     }
 }

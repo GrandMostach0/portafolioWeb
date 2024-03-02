@@ -1,25 +1,36 @@
+
 .separador{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
+    margin-bottom: 30px;
 }
 
 .container-about{
+    box-shadow:var(--box-shadow-container-about);
     text-align: center;
-    width: 60%;
-    border: 1px solid blue;
-    padding: 30px;
+    width: 95%;
+    border-radius: 2rem;
+    padding: 60px 30px;
+}
+
+.foto-personal-about{
+    border: 4px solid rgba(82, 5, 121, 0.5);
+    text-align: center;
+    background-color: rgba(82, 5, 121, 0.421);
+    width: 220px;
 }
 
 .container-about h1{
-    color: white;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: var(--color-text);
 }
 
 .container-about h2{
-    font-size: 2rem;
-    color: blueviolet;
+    font-size: 1.4rem;
+    color: var(--icon-hover);
     margin: 10px;
 }
 
@@ -31,4 +42,33 @@
 #logo-personal-marca{
     text-align: left;
     width: 40px;
+}
+
+.about-p{
+    font-size: 1.2rem;
+    line-height: 25px;
+    text-wrap: pretty;
+}
+
+@media (max-width: 768px){
+
+    .separador{
+        margin-bottom: 280px;
+    }
+
+    .about-title h2{
+        font-size: 1rem;
+    }
+
+    .about-t{
+        font-size: 1.2rem;
+    }
+
+    .about-p{
+        font-size: 0.9rem;
+    }
+
+    #logo-personal-marca{
+        width: 30px;
+    }
 }

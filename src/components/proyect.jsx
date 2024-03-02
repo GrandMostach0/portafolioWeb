@@ -8,6 +8,8 @@ import HtmlIcon from './icons/HtmlIcon';
 import CssIcon from './icons/CSSIcon';
 import PhpIcon from './icons/PhpIcon';
 
+import '../styles/proyect.css';
+
 export default function proyect(props) {
   return (
     <>

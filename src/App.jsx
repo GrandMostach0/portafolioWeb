@@ -30,8 +30,18 @@ function App(){
     }
 
     return (
-      <div>
-        <Form />
+      <div className="App appfinal" data-theme={isDark ? "dark" : "light"}>
+        <div className="circulo"></div>
+        <div className="circulo c-1"></div>
+        <Menu isDark={isDark} toggleTheme={toggleTheme} />
+        <div className="container-app">
+          <Cuerpo />
+          <Proyects />
+          <About />
+          <Skills />
+          <Contact />
+        </div>
+        <Footer />
       </div>
     );
 }

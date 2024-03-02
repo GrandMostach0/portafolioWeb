@@ -1,5 +1,4 @@
 import React from 'react';
-import { set, useForm } from 'react-hook-form';
 import GitHubIcon from '../components/icons/GitHubIcon';
 import LinkedinIcon from '../components/icons/LinkedinIcon';
 import BehanceIcon from '../components/icons/BehanceIcon';
@@ -35,9 +34,7 @@ function ContactForm() {
           name="FormularioContacto"
           method="post"
           data-netlify="true"
-          onSubmit="submit"
           data-netlify-honeypot="bot-field"
-          autoComplete="off"
         >
           <input type="hidden" name="form-name" value="FormularioContacto" />
 

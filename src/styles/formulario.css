@@ -1,0 +1,20 @@
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario2{
+    border: 1px solid red;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.centered-form label, input{
+    color: black;
+}
+
+/* Agrega más estilos según sea necesario */

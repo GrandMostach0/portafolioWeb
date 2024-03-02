@@ -2,9 +2,12 @@ import React from 'react';
 import '../styles/formulario.css';
 
 function Form() {
-    const handleSubmit = (event) =>{
-        event.preventDefault();
-    }
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      // Lógica para manejar el envío del formulario
+      console.log("Formulario enviado"); // Añade un mensaje de prueba para verificar si la función se está ejecutando
+    };
+
 
   return (
     <div className="cenetred-form">

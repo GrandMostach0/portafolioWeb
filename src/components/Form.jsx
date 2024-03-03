@@ -79,7 +79,7 @@ function Form() {
         <div className="separador-form-div-name-email">
           <div className="wrapper">
             <label className="lbl-nombre" htmlFor="user_name">
-              Nombre
+              Nombre:
             </label>
             <input
               placeholder="Nombre"
@@ -92,7 +92,7 @@ function Form() {
 
           <div div className="wrapper">
             <label className="lbl-nombre" htmlFor="user_email">
-              Email
+              Correo:
             </label>
             <input
               placeholder="Correo"
@@ -106,7 +106,7 @@ function Form() {
 
         <div className="container-textarea">
           <label className="lbl-nombre" htmlFor="message">
-            Message
+            Mensaje:
           </label>
           <textarea
             placeholder="Escribeme.."

@@ -5,8 +5,8 @@ function EmailIcon(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-mail custom-icon"
-      width="40"
-      height="40"
+      width="30"
+      height="30"
       viewBox="0 0 24 24"
       strokeWidth="1.3"
       stroke="#ffffff"

@@ -1,4 +1,4 @@
-import FotoPersonal from '../assets/images/foto.png';
+import FotoPersonal from '../assets/images/foto.jpg';
 import GitHubIcon from './icons/GitHubIcon';
 import LinkedinIcon from './icons/LinkedinIcon';
 import BehanceIcon from './icons/BehanceIcon';
@@ -27,7 +27,7 @@ const handleOpenInNewTab = () => {
 function Cuerpo(){
 
     return(
-        <section className='presentacion'>
+        <section id='inicio' className='presentacion'>
             <div className="container">
                 <div className='presentacion-text'>
                     <h2 className='nombre-presentacion'>Hola, soy Victor Chan</h2>
@@ -65,7 +65,7 @@ function Cuerpo(){
                     </section>
 
                 </div>
-                <img className='foto-personal' src={FotoPersonal} alt="photoLead"/>
+                <img loading='lazy' className='foto-personal' src={FotoPersonal} alt="photoLead"/>
             </div>
         </section>
     );

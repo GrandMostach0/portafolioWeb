@@ -30,7 +30,7 @@
 .container-menu-proyectos .selected{
     font-weight: bold;
     opacity: 1;
-    background-color: rgba(0, 128, 0, 0.3);
+    background-color: var(--menu-proyect-selector);
     border-radius: 10px;
 }
 

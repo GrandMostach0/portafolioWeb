@@ -1,15 +1,15 @@
 import React from 'react';
-import FotoPersonal from '../assets/images/foto.png';
+import FotoPersonal from '../assets/images/foto.jpg';
 import LogoPersonal from './icons/LogoPersonal';
 import '../styles/about.css';
 
 function Cuerpo2(){
     return(
-        <section className='separador'>
+        <section id='about' className='separador'>
             <div 
             className="container-about">
                 <div className="about-title">
-                    <img className='foto-personal foto-personal-about' src={FotoPersonal} alt="foto-personal" />
+                    <img loading='lazy' className='foto-personal foto-personal-about' src={FotoPersonal} alt="foto-personal" />
                     <h1 className='titulos about-t'>Acerca de mí</h1>
                     <h2>Hola, Me llamo Victor 👋 </h2>
                 </div>

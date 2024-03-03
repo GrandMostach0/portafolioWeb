@@ -22,7 +22,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="separador">
+    <div id='contact' className="separador">
       <div className="container-form-contact">
         {/* zona especifico para el envio de formualarios */}
         <Form />

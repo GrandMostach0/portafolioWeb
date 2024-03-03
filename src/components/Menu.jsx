@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import LogoPersonal from './components/icons/LogoPersonal';
-import './menu.css';
-import { Toggle } from './components/Toggle';
+import LogoPersonal from './icons/LogoPersonal';
+import '../styles/menu.css';
+import { Toggle } from './Toggle';
 
 function Menu({isDark, toggleTheme}){
     const [isOpen, setIsOpen] = useState(false);

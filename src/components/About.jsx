@@ -1,7 +1,7 @@
 import React from 'react';
-import FotoPersonal from './assets/images/foto.png';
-import LogoPersonal from './components/icons/LogoPersonal';
-import './about.css';
+import FotoPersonal from '../assets/images/foto.png';
+import LogoPersonal from './icons/LogoPersonal';
+import '../styles/about.css';
 
 function Cuerpo2(){
     return(

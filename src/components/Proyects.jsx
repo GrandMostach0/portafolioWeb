@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import Proyect from './components/proyect';
-import ErrorIcon from './components/icons/ErrorIcon';
-import './proyects.css';
-import 'aos/dist/aos.css';
+import Proyect from './proyect';
+import ErrorIcon from './icons/ErrorIcon';
+import '../styles/proyects.css';
 
 const opcionesMenu = ['Web', 'Ciberseguridad', 'Devops'];
 

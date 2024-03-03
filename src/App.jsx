@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Menu from './Menu';
-import Cuerpo from './Cuerpo';
-import About from './About';
-import Proyects from './Proyects';
-import Skills from './Skills';
+import Menu from './components/Menu';
+import Cuerpo from './components/Cuerpo';
+import About from './components/About';
+import Proyects from './components/Proyects';
+import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Contact from './components/ContactForm';
 import Form from './components/Form';

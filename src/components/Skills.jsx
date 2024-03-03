@@ -1,7 +1,6 @@
-import React from 'react'
-import Skill from './components/Skill';
-import './skills.css';
-import 'aos/dist/aos.css';
+import React from 'react';
+import Skill from './Skill';
+import '../styles/skills.css';
 
 const skillsList = [
   {

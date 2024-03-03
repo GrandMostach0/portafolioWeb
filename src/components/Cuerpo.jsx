@@ -1,13 +1,13 @@
-import FotoPersonal from './assets/images/foto.png';
-import GitHubIcon from './components/icons/GitHubIcon';
-import LinkedinIcon from './components/icons/LinkedinIcon';
-import BehanceIcon from './components/icons/BehanceIcon';
-import TwitterIcon from './components/icons/TwitterIcon';
+import FotoPersonal from '../assets/images/foto.png';
+import GitHubIcon from './icons/GitHubIcon';
+import LinkedinIcon from './icons/LinkedinIcon';
+import BehanceIcon from './icons/BehanceIcon';
+import TwitterIcon from './icons/TwitterIcon';
 
 import {Typewriter} from 'react-simple-typewriter';
 
-import './cuerpo.css';
-import './main.css';
+import '../styles/cuerpo.css';
+import '../index.css';
 
 const handleDownload = () => {
     const pdfUrl = 'https://pdfobject.com/pdf/sample.pdf';  // Reemplaza con tu URL de PDF

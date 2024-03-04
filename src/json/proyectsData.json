@@ -2,34 +2,23 @@
   {
     "id": 1,
     "categoryType": "Web",
-    "imagePath": "../assets/images/placeDelirios.png",
-    "title": "fazt Web Front-End",
+    "imagePath": "../../src/assets/images/placeDelirios.png",
+    "title": "Place & Delirio",
     "category": "FullStack",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.",
+    "description": "Plantilla de una página web para una cafetería, es una página FullStack ya que cuenta con secciones tanto Backend y Frontend.",
     "urlGitHub": "https://github.com/GrandMostach0",
     "urlPreview": "https://google.com/",
     "tags": ["HTML", "CSS", "PHP", "MYSQL"]
   },
   {
     "id": 2,
-    "categoryType": "Ciberseguridad",
-    "imagePath": "../assets/images/placeDelirios.png",
-    "title": "fazt blog Ciberseguridad",
-    "category": "FullStack",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.",
-    "urlGitHub": "",
-    "urlPreview": "",
-    "tags": []
-  },
-  {
-    "id": 3,
     "categoryType": "Devops",
-    "imagePath": "../assets/images/placeDelirios.png",
-    "title": "fazt youtube Devops",
-    "category": "FullStack",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.",
-    "urlGitHub": "https://github.com/GrandMostach0",
-    "urlPreview": "https://google.com/",
+    "imagePath": "../../src/assets/images/DockerConcurso.png",
+    "title": "Concurso Devops",
+    "category": "Devops",
+    "description": " Concurso de Docker, consitío el desarrolló de un contenedor Docker que albergaba tres aplicaciones web. Utilizando un archivo Docker Compose, levantaba simultaneamente la ejecución de 3 aplicaciones web. Aunque alcanzamos el tercer lugar por cuestiones de tiempo.",
+    "urlGitHub": "https://github.com/JulianChan123/docker-ls-chall",
+    "urlPreview": "",
     "tags": ["Docker"]
   }
 ]

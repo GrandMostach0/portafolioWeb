@@ -2,7 +2,7 @@
   {
     "id": 1,
     "categoryType": "Web",
-    "imagePath": "../../src/assets/images/placeDelirios.png",
+    "imagePath": "../assets/images/placeDelirios.png",
     "title": "Place & Delirio",
     "category": "FullStack",
     "description": "Plantilla de una página web para una cafetería, es una página FullStack ya que cuenta con secciones tanto Backend y Frontend.",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "categoryType": "Devops",
-    "imagePath": "../../src/assets/images/DockerConcurso.png",
+    "imagePath": "../assets/images/DockerConcurso.png",
     "title": "Concurso Devops",
     "category": "Devops",
     "description": " Concurso de Docker, consitío el desarrolló de un contenedor Docker que albergaba tres aplicaciones web. Utilizando un archivo Docker Compose, levantaba simultaneamente la ejecución de 3 aplicaciones web. Aunque alcanzamos el tercer lugar por cuestiones de tiempo.",

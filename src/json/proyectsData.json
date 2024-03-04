@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "categoryType": "Web",
+    "imagePath": "../assets/images/placeDelirios.png",
+    "title": "fazt Web Front-End",
+    "category": "FullStack",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.",
+    "urlGitHub": "https://github.com/GrandMostach0",
+    "urlPreview": "https://google.com/",
+    "tags": ["HTML", "CSS", "PHP", "MYSQL"]
+  },
+  {
+    "id": 2,
+    "categoryType": "Ciberseguridad",
+    "imagePath": "../assets/images/placeDelirios.png",
+    "title": "fazt blog Ciberseguridad",
+    "category": "FullStack",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.",
+    "urlGitHub": "",
+    "urlPreview": "",
+    "tags": []
+  },
+  {
+    "id": 3,
+    "categoryType": "Devops",
+    "imagePath": "../assets/images/placeDelirios.png",
+    "title": "fazt youtube Devops",
+    "category": "FullStack",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minima enim adipisci sequi molestiae, rem maxime laborum reprehenderit suscipit non ipsum, ab ut facilis vel illo dignissimos doloribus doloremque fugiat.",
+    "urlGitHub": "https://github.com/GrandMostach0",
+    "urlPreview": "https://google.com/",
+    "tags": ["Docker"]
+  }
+]

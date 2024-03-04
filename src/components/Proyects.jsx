@@ -48,7 +48,7 @@ function Proyects() {
     : cards;
 
   return (
-    <section id='proyectos' className='container-proyects'>
+    <section className='container-proyects'>
       <h1 className='titulos titulos-separadores'>Proyectos</h1>
       <div className='container-menu-proyectos'>
         {opcionesMenu.map((opcion, index) => (

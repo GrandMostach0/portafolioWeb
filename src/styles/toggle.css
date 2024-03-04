@@ -1,11 +1,14 @@
 
 .toggle-container {
     margin-bottom: 10px;
-    user-select: none;
 }
 
 .toggle {
     visibility: hidden;
+}
+
+.toggle:focus{
+    outline: none;
 }
 
 .toggle+label {

@@ -26,48 +26,63 @@ const handleOpenInNewTab = () => {
 
 function Cuerpo(){
 
-    return(
-        <section id='inicio' className='presentacion'>
-            <div className="container">
-                <div className='presentacion-text'>
-                    <h2 className='nombre-presentacion'>Hola, soy Victor Chan</h2>
-                    <h1 className='titulos titulo-cargo'>
-                        <Typewriter 
-                        words={['Front-End Developer', 'Cybersecurity', 'DevOps']}
-                        loop={true}
-                        cursor
-                        cursorStyle='|'
-                        typeSpeed={150}
-                        deleteSpeed={150}
-                        delaySpeed={1000}/>
-                    </h1>
-                    <p className='des'>
-                        <span className='btnDestacado'>disponible para trabajar</span>
-                    </p>
-                    <p className='parrafos'>¡Hola! Soy un principiante apasionado por el desarrollo web y la ciberseguridad. Estoy dando mis primeros pasos en este emocionante mundo. Mi deseo es crear soluciones digitales seguras. ¡Listo para explorar y crecer en esta apasionante travesía!</p>
-                    <section className='seccion-sociales-botones'>
-                        <a href="https://github.com/GrandMostach0" target='_blank'>
-                            <GitHubIcon classNameP={"iconsHover"} color={"#fff"}/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/victorchanvarguez/" target='_blank'>
-                            <LinkedinIcon classNameP={"iconsHover"} color={"#fff"} />
-                        </a>
-                        <a href="https://www.behance.net/victorchanva" target='_blank'>
-                            <BehanceIcon classNameP={"iconsHover"} color={"#fff"} />
-                        </a>
-                        <a href="#">
-                            <TwitterIcon classNameP={"iconsHover"} color={"#fff"} />
-                        </a>
-                    </section>
-                    <section className='seccion-sociales-botones seccion-botones'>
-                        <button>Contacto</button>
-                        <button onClick={handleOpenInNewTab}>Descargar CV</button>
-                    </section>
-
-                </div>
-                <img loading='lazy' className='foto-personal' src={FotoPersonal} alt="photoLead"/>
-            </div>
-        </section>
+    return (
+      <section id="inicio" className="presentacion">
+        <div className="container">
+          <div className="presentacion-text">
+            <h2 className="nombre-presentacion">Hola, soy Victor Chan</h2>
+            <h1 className="titulos titulo-cargo">
+              <Typewriter
+                words={["Front-End Developer", "Cybersecurity", "DevOps"]}
+                loop={true}
+                cursor
+                cursorStyle="|"
+                typeSpeed={150}
+                deleteSpeed={150}
+                delaySpeed={1000}
+              />
+            </h1>
+            <p className="des">
+              <span className="btnDestacado">disponible para trabajar</span>
+            </p>
+            <p className="parrafos">
+              ¡Hola! Soy un principiante apasionado por el desarrollo web y la
+              ciberseguridad. Estoy dando mis primeros pasos en este emocionante
+              mundo. Mi deseo es crear soluciones digitales seguras. ¡Listo para
+              explorar y crecer en esta apasionante travesía!
+            </p>
+            <section className="seccion-sociales-botones">
+              <a href="https://github.com/GrandMostach0" target="_blank">
+                <GitHubIcon classNameP={"iconsHover"} color={"#fff"} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/victorchanvarguez/"
+                target="_blank"
+              >
+                <LinkedinIcon classNameP={"iconsHover"} color={"#fff"} />
+              </a>
+              <a href="https://www.behance.net/victorchanva" target="_blank">
+                <BehanceIcon classNameP={"iconsHover"} color={"#fff"} />
+              </a>
+              <a href="#">
+                <TwitterIcon classNameP={"iconsHover"} color={"#fff"} />
+              </a>
+            </section>
+            <section className="seccion-sociales-botones seccion-botones">
+              <a href="#contact">
+                <button>Contacto</button>
+              </a>
+              <button onClick={handleOpenInNewTab}>Descargar CV</button>
+            </section>
+          </div>
+          <img
+            loading="lazy"
+            className="foto-personal"
+            src={FotoPersonal}
+            alt="photoLead"
+          />
+        </div>
+      </section>
     );
 }
 

@@ -12,7 +12,9 @@ export default function Footer() {
   return (
     <footer className="footer-container">
       <div className="separador-footer">
-        <LogoPersonal color={"#fff"} />
+        <a href="#inicio">
+          <LogoPersonal color={"#fff"} />
+        </a>
         <div className="footer-description">
           <p>
             Transformado ideas en realidad a traves de soluciones innovadoras.
@@ -26,7 +28,10 @@ export default function Footer() {
             href="https://www.linkedin.com/in/victorchanvarguez/"
             target="_blank"
           >
-            <LinkedinIcon classNameP={"iconsHover icon-footer"} color={"#fff"} />
+            <LinkedinIcon
+              classNameP={"iconsHover icon-footer"}
+              color={"#fff"}
+            />
           </a>
           <a href="https://www.behance.net/victorchanva" target="_blank">
             <BehanceIcon classNameP={"iconsHover icon-footer"} color={"#fff"} />

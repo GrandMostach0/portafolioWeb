@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "titleSkill": "React"
+    },
+    {
+        "id": 2,
+        "titleSkill": "HTML5"
+    },
+    {
+        "id": 3,
+        "titleSkill": "CSS"
+    },
+    {
+        "id": 4,
+        "titleSkill": "JavaScript"
+    },
+    {
+        "id": 5,
+        "titleSkill": "PHP"
+    },
+    {
+        "id": 6,
+        "titleSkill": "Mysql"
+    },
+    {
+        "id": 7,
+        "titleSkill": "Figma"
+    },
+    {
+        "id": 8,
+        "titleSkill": "Github + Git"
+    },
+    {
+        "id": 9,
+        "titleSkill": "Python"
+    },
+    {
+        "id": 10,
+        "titleSkill": "Windows/Linux"
+    },
+    {
+        "id": 11,
+        "titleSkill": "Node js"
+    },
+    {
+        "id": 12,
+        "titleSkill": "Redes"
+    },
+    {
+        "id": 13,
+        "titleSkill": "Prevencion de amenzas"
+    },
+    {
+        "id": 14,
+        "titleSkill": "Seguridad de Aplicaciones"
+    },
+    {
+        "id": 15,
+        "titleSkill": "Automatización"
+    },
+    {
+        "id": 16,
+        "titleSkill": "Jenkins"
+    },
+    {
+        "id": 17,
+        "titleSkill": "Docker"
+    }
+]

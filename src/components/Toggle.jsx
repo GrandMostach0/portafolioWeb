@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/toggle.css';
 
 export const Toggle = ({handleChange, isChecked}) => {
   return (

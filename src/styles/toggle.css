@@ -7,6 +7,10 @@
     visibility: hidden;
 }
 
+.toggle:focus{
+    outline: none;
+}
+
 .toggle+label {
     display: flex;
     align-items: center;

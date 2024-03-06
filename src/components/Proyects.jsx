@@ -3,7 +3,7 @@ import Proyect from './proyect';
 import ErrorIcon from './icons/ErrorIcon';
 import '../styles/proyects.css';
 
-const opcionesMenu = ['Web', 'Ciberseguridad', 'Devops'];
+const opcionesMenu = ['Web', 'Ciberseguridad', 'DevOps'];
 
 import proyectsData from '../json/proyectsData.json';
 

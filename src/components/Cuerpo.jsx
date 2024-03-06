@@ -20,7 +20,8 @@ const handleDownload = () => {
 };
 
 const handleOpenInNewTab = () => {
-    const pdfUrl = 'https://pdfobject.com/pdf/sample.pdf'; // Reemplaza con tu URL de PDF
+    const pdfUrl =
+      "https://drive.google.com/file/d/1odZrSSuS3MCIXInBiYbZMXUziw8455Ba/view?usp=sharing";
     window.open(pdfUrl, '_blank');
 };
 
@@ -33,7 +34,7 @@ function Cuerpo(){
             <h2 className="nombre-presentacion">Hola, soy Victor Chan</h2>
             <h1 className="titulos titulo-cargo">
               <Typewriter
-                words={["Front-End Developer", "Cybersecurity", "DevOps"]}
+                words={["Front-End Developer", "Ciberseguridad", "DevOps"]}
                 loop={true}
                 cursor
                 cursorStyle="|"
@@ -46,10 +47,11 @@ function Cuerpo(){
               <span className="btnDestacado">disponible para trabajar</span>
             </p>
             <p className="parrafos">
-              ¡Hola! Soy un principiante apasionado por el desarrollo web y la
-              ciberseguridad. Estoy dando mis primeros pasos en este emocionante
-              mundo. Mi deseo es crear soluciones digitales seguras. ¡Listo para
-              explorar y crecer en esta apasionante travesía!
+              ¡Saludos! Soy un apasionado del desarrollo web, la ciberseguridad
+              y DevOps. Estoy inmerso en este emocionante mundo con la meta de
+              crear soluciones digitales seguras y optimizar procesos mediante
+              prácticas DevOps. Listo para explorar y crecer en esta apasionante
+              travesía.
             </p>
             <section className="seccion-sociales-botones">
               <a href="https://github.com/GrandMostach0" target="_blank">

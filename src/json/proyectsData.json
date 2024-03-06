@@ -12,10 +12,10 @@
   },
   {
     "id": 2,
-    "categoryType": "Devops",
+    "categoryType": "DevOps",
     "imagePath": "https://www.zadara.com/wp-content/uploads/docker.png",
     "title": "Concurso Devops",
-    "category": "Devops",
+    "category": "DevOps",
     "description": " Concurso de Docker, consitío el desarrolló de un contenedor Docker que albergaba tres aplicaciones web. Utilizando un archivo Docker Compose, levantaba simultaneamente la ejecución de 3 aplicaciones web. Aunque alcanzamos el tercer lugar por cuestiones de tiempo.",
     "urlGitHub": "https://github.com/JulianChan123/docker-ls-chall",
     "urlPreview": "",

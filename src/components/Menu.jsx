@@ -6,7 +6,8 @@ import { Toggle } from "./Toggle";
 function Menu({ isDark, toggleTheme }) {
 
   const handleOpenInNewTab = () => {
-    const pdfUrl = "https://pdfobject.com/pdf/sample.pdf"; // Reemplaza con tu URL de PDF
+    const pdfUrl =
+      "https://drive.google.com/file/d/1odZrSSuS3MCIXInBiYbZMXUziw8455Ba/view?usp=sharing"; // Reemplaza con tu URL de PDF
     window.open(pdfUrl, "_blank");
   };
 
@@ -36,7 +37,7 @@ function Menu({ isDark, toggleTheme }) {
   return (
     <div className="Navbar">
       <a href="#inicio">
-        <LogoPersonal color={"#fff"} />
+        <LogoPersonal/>
       </a>
       <div className="containerItems">
         <Toggle isChecked={isDark} handleChange={toggleTheme} />

@@ -1,49 +1,7 @@
 import React from 'react';
 import Skill from './Skill';
+import skillsList from '../json/skillsData.json';
 import '../styles/skills.css';
-
-const skillsList = [
-  {
-    id: 1,
-    titleSkill: 'Java'
-  },
-  {
-    id: 2,
-    titleSkill: 'Figma'
-  },
-  {
-    id: 3,
-    titleSkill: 'C++'
-  },
-  {
-    id: 4,
-    titleSkill: 'GitHub + Git'
-  },
-  {
-    id: 5,
-    titleSkill: 'Docker'
-  },
-  {
-    id: 6,
-    titleSkill: 'Linux/Windows'
-  },
-  {
-    id: 7,
-    titleSkill: 'Mysql'
-  },
-  {
-    id: 8,
-    titleSkill: 'React'
-  },
-  {
-    id: 9,
-    titleSkill: 'CSS'
-  },
-  {
-    id: 10,
-    titleSkill: 'JavaScript'
-  }
-]
 
 export default function Skills() {
 

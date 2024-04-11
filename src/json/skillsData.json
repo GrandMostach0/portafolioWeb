@@ -25,46 +25,30 @@
     },
     {
         "id": 7,
-        "titleSkill": "Figma"
-    },
-    {
-        "id": 8,
         "titleSkill": "Github + Git"
     },
     {
-        "id": 9,
+        "id": 8,
         "titleSkill": "Python"
     },
     {
-        "id": 10,
+        "id": 9,
         "titleSkill": "Windows/Linux"
     },
     {
-        "id": 11,
-        "titleSkill": "Node js"
-    },
-    {
-        "id": 12,
+        "id": 10,
         "titleSkill": "Redes"
     },
     {
-        "id": 13,
-        "titleSkill": "Prevencion de amenzas"
+        "id": 11,
+        "titleSkill": "Pentester"
     },
     {
-        "id": 14,
-        "titleSkill": "Seguridad de Aplicaciones"
-    },
-    {
-        "id": 15,
+        "id": 12,
         "titleSkill": "Automatización"
     },
     {
-        "id": 16,
-        "titleSkill": "Jenkins"
-    },
-    {
-        "id": 17,
+        "id": 13,
         "titleSkill": "Docker"
     }
 ]

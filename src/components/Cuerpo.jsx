@@ -34,7 +34,7 @@ function Cuerpo(){
             <h2 className="nombre-presentacion">Hola, soy Victor Chan</h2>
             <h1 className="titulos titulo-cargo">
               <Typewriter
-                words={["Front-End Developer", "Ciberseguridad", "DevOps"]}
+                words={["Front-End", "Ciberseguridad", "DevOps"]}
                 loop={true}
                 cursor
                 cursorStyle="|"
@@ -44,13 +44,11 @@ function Cuerpo(){
               />
             </h1>
             <p className="des">
-              <span className="btnDestacado">disponible para trabajar</span>
+              <span className="btnDestacado">disponible para trabajar ✅</span>
             </p>
             <p className="parrafos">
               ¡Saludos! Soy un apasionado del desarrollo web, la ciberseguridad
-              y DevOps. Estoy inmerso en este emocionante mundo con la meta de
-              crear soluciones digitales seguras y optimizar procesos mediante
-              prácticas DevOps. Listo para explorar y crecer en esta apasionante
+              y DevOps. Listo para explorar y crecer en esta apasionante
               travesía.
             </p>
             <section className="seccion-sociales-botones">

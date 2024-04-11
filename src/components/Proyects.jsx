@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Proyect from './proyect';
 import ErrorIcon from './icons/ErrorIcon';
 import '../styles/proyects.css';
@@ -13,6 +13,10 @@ function Proyects() {
   const handleOptionSelected = (option) => {
     setSelectedOption(option.toLowerCase());
   };
+
+  useEffect(() => {
+    handleOptionSelected(selectedOption);
+  });
 
   const filteredCards = selectedOption
     ? proyectsData.filter((proyect) => proyect.categoryType.toLowerCase() === selectedOption.toLowerCase())

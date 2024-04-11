@@ -22,16 +22,16 @@ function ContactForm() {
   };
 
   return (
-    <div id='contact' className="separador">
+    <div id="contact" className="separador">
       <div className="container-form-contact">
         {/* zona especifico para el envio de formualarios */}
         <Form />
 
         <div className="contact">
-          <h2 className="contact-title">!Contactame¡</h2>
+          <h2 className="contact-title">¡ Contactame !</h2>
           <p>Más información:</p>
           <p>
-            <strong>¡Toca para copiar!</strong>
+            <strong>¡Toca para abrir!</strong>
           </p>
 
           <div className="container-contact-info">
@@ -96,36 +96,24 @@ function ContactForm() {
             <br />
           </div>
           <p style={{ textAlign: "center" }}>
-            <strong>Or sent Email here</strong>
+            <strong>Ó ¡ enviame mensaje aqui ✉️!</strong>
           </p>
           <div className="cards">
             <section className="seccion-sociales-botones">
               <a href="https://github.com/GrandMostach0" target="_blank">
-                <GitHubIcon
-                  classNameP={"iconsHover iconsContact"}
-                  color={"#fff"}
-                />
+                <GitHubIcon classNameP={"iconsHover"} color={"#fff"} />
               </a>
               <a
                 href="https://www.linkedin.com/in/victorchanvarguez/"
                 target="_blank"
               >
-                <LinkedinIcon
-                  classNameP={"iconsHover iconsContact"}
-                  color={"#fff"}
-                />
+                <LinkedinIcon classNameP={"iconsHover"} color={"#fff"} />
               </a>
               <a href="https://www.behance.net/victorchanva" target="_blank">
-                <BehanceIcon
-                  classNameP={"iconsHover iconsContact"}
-                  color={"#fff"}
-                />
+                <BehanceIcon classNameP={"iconsHover"} color={"#fff"} />
               </a>
               <a href="#">
-                <TwitterIcon
-                  classNameP={"iconsHover iconsContact"}
-                  color={"#fff"}
-                />
+                <TwitterIcon classNameP={"iconsHover"} color={"#fff"} />
               </a>
             </section>
           </div>

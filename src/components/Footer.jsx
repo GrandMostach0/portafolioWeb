@@ -3,7 +3,7 @@ import GitHubIcon from './icons/GitHubIcon';
 import LinkedinIcon from './icons/LinkedinIcon';
 import BehanceIcon from './icons/BehanceIcon';
 import TwitterIcon from './icons/TwitterIcon';
-import LogoPersonal from './icons/LogoPersonal';
+import LogoPersonal2 from "./icons/LogoPersonal2";
 import '../styles/Footer.css';
 
 import ReactIcons from './icons/ReactIcons';
@@ -13,11 +13,11 @@ export default function Footer() {
     <footer className="footer-container">
       <div className="separador-footer">
         <a href="#inicio">
-          <LogoPersonal color={"#fff"} />
+          <LogoPersonal2 color={"#fff"} />
         </a>
         <div className="footer-description">
           <p>
-            Transformado ideas en realidad a traves de soluciones innovadoras.
+            Transformado ideas en realidad a través de soluciones innovadoras.
           </p>
         </div>
         <section className="seccion-sociales-botones">
@@ -44,11 +44,10 @@ export default function Footer() {
       <div className="separador-footer">
         <h4 className="footer-title">navegación</h4>
         <div className="footer-options">
-          <a href="#">Inicio</a>
-          <a href="#">about</a>
-          <a href="#">proyects</a>
-          <a href="#">Contact</a>
-          <a href="#">download cv</a>
+          <a href="#inicio">Inicio</a>
+          <a href="#about">Acerca de mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contact">Contacto</a>
         </div>
       </div>
       <div className="separador-footer">

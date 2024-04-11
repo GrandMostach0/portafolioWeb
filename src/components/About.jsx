@@ -1,6 +1,6 @@
 import React from 'react';
 import FotoPersonal from '../assets/images/foto.jpg';
-import LogoPersonal from './icons/LogoPersonal';
+import LogoPersonal2 from "./icons/LogoPersonal2";
 import '../styles/about.css';
 
 function Cuerpo2(){
@@ -18,24 +18,22 @@ function Cuerpo2(){
             <h2>Hola, Me llamo Victor 👋 </h2>
           </div>
           <p className="parrafos about-p">
-            Pero me puedes llamar Vic, un apasionado de la Tecnología lo cual me
-            llevo a estudiar la carrera de Ingeniería en Sistemas
-            Computacionales, me gusta el desarrollo Web tanto Back-end y
-            Front-End, pero también me gusta temas relacionado con las
-            ciberseguridad y el DevOps, por lo que tambien tengo conocimientos
-            solidos en esa areá.
+            Pero me puedes llamar Vic, un apasionado de la Tecnología, lo que me oriento a estudiar la 
+            <strong> carrera de Ingeniería en Sistemas Computacionales</strong>,
+            me gusta el desarrollo Web tanto Back-end y Front-End, pero también
+            me gusta temas sobre Ciberseguridad y DevOps, por
+            lo que también tengo conocimientos sobre esa areá.
           </p>
           <p className="parrafos about-p">
             Mi entusiasmo y compromiso me motivan a aprender y crecer en este
-            emocionante viaje.{" "}
-            <br />
+            emocionante viaje. <br />
             <strong>
               ¡Listo para absorber conocimientos y aportar en el mundo digital!
             </strong>
             .
           </p>
           <div className="marca">
-            <LogoPersonal color={"#fff"} />
+            <LogoPersonal2 color={"#fff"} />
           </div>
         </div>
       </section>

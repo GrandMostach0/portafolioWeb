@@ -82,7 +82,7 @@ function Form() {
               Nombre:
             </label>
             <input
-              placeholder="Nombre"
+              placeholder="Nombre.."
               type="text"
               name="user_name"
               value={formData.user_name}
@@ -95,7 +95,7 @@ function Form() {
               Correo:
             </label>
             <input
-              placeholder="Correo"
+              placeholder="Correo.."
               type="email"
               name="user_email"
               value={formData.user_email}

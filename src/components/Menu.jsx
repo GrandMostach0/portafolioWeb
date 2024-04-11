@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LogoPersonal from "./icons/LogoPersonal";
+import LogoPersonal2 from "./icons/LogoPersonal2";
 import "../styles/menu.css";
 import { Toggle } from "./Toggle";
 
@@ -37,7 +37,7 @@ function Menu({ isDark, toggleTheme }) {
   return (
     <div className="Navbar">
       <a href="#inicio">
-        <LogoPersonal/>
+        <LogoPersonal2/>
       </a>
       <div className="containerItems">
         <Toggle isChecked={isDark} handleChange={toggleTheme} />

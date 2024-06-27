@@ -20,5 +20,12 @@
     "urlGitHub": "https://github.com/JulianChan123/docker-ls-chall",
     "urlPreview": "",
     "tags": ["Docker"]
+  },{
+    "id": 3,
+    "categoryType": "ciberseguridad",
+    "imagePath": "https://www.parsons.com/wp-content/uploads/2022/02/events_category_images_capture_the_flag20.jpg",
+    "title": "Concurso CTF",
+    "category": "Ciberseguridad",
+    "description": "Concurso de 'Capture The Flag', evento realizado por el capitulo AAAIMX del Instituto Tecnológico de Mérida, en este concurso se logró obtener el Segundo Lugar,un reto muy interesante 😁."
   }
 ]

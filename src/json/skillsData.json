@@ -9,7 +9,7 @@
     },
     {
         "id": 3,
-        "titleSkill": "CSS"
+        "titleSkill": "CSS3"
     },
     {
         "id": 4,
@@ -29,26 +29,18 @@
     },
     {
         "id": 8,
-        "titleSkill": "Python"
-    },
-    {
-        "id": 9,
         "titleSkill": "Windows/Linux"
     },
     {
-        "id": 10,
+        "id": 9,
         "titleSkill": "Redes"
     },
     {
-        "id": 11,
+        "id": 10,
         "titleSkill": "Pentester"
     },
     {
-        "id": 12,
-        "titleSkill": "Automatización"
-    },
-    {
-        "id": 13,
+        "id": 11,
         "titleSkill": "Docker"
     }
 ]

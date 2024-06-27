@@ -7,7 +7,7 @@ function Menu({ isDark, toggleTheme }) {
 
   const handleOpenInNewTab = () => {
     const pdfUrl =
-      "https://drive.google.com/file/d/1odZrSSuS3MCIXInBiYbZMXUziw8455Ba/view?usp=sharing"; // Reemplaza con tu URL de PDF
+      "https://drive.google.com/file/d/1uDd_kjtVCA8ZKjIDBkYYzRdGsbl6RGNA/view?usp=sharing"; // Reemplaza con tu URL de PDF
     window.open(pdfUrl, "_blank");
   };
 

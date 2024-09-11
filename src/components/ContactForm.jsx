@@ -112,9 +112,13 @@ function ContactForm() {
               <a href="https://www.behance.net/victorchanva" target="_blank">
                 <BehanceIcon classNameP={"iconsHover"} color={"#fff"} />
               </a>
+
+              {/* 
               <a href="#">
                 <TwitterIcon classNameP={"iconsHover"} color={"#fff"} />
               </a>
+              */}
+              
             </section>
           </div>
         </div>

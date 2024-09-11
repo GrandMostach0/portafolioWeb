@@ -18,11 +18,10 @@ function Cuerpo2(){
             <h2>Hola, Me llamo Victor 👋 </h2>
           </div>
           <p className="parrafos about-p">
-            Pero me puedes llamar Vic, un apasionado de la Tecnología, lo que me
+            Soy un apasionado de la Tecnología, lo que me
             oriento a estudiar la
             <strong> carrera de Ingeniería en Sistemas Computacionales</strong>,
-            me gusta el <strong>desarrollo Web</strong>, pero también me gusta
-            el mundo de la <strong>Ciberseguridad y DevOps</strong>. Me gusta
+            me gusta el <strong>desarrollo Web</strong> y la <strong>Ciberseguridad</strong>. Me gusta
             aprender cosas nuevas y experimentar nuevas formas de resolver
             problemas.
           </p>

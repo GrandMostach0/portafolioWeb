@@ -47,8 +47,8 @@ function Cuerpo(){
               <span className="btnDestacado">disponible para trabajar ✅</span>
             </p>
             <p className="parrafos">
-              Soy un apasionado del desarrollo web, la ciberseguridad
-              y DevOps. Listo para explorar y crecer en esta apasionante
+              Soy un apasionado del desarrollo web y la ciberseguridad.
+              Listo para explorar y crecer en esta apasionante
               travesía.
             </p>
             <section className="seccion-sociales-botones">
@@ -64,9 +64,7 @@ function Cuerpo(){
               <a href="https://www.behance.net/victorchanva" target="_blank">
                 <BehanceIcon classNameP={"iconsHover"} color={"#fff"} />
               </a>
-              <a href="#">
-                <TwitterIcon classNameP={"iconsHover"} color={"#fff"} />
-              </a>
+              
             </section>
             <section className="seccion-sociales-botones seccion-botones">
               <a href="#contact">

@@ -21,7 +21,7 @@ const handleDownload = () => {
 
 const handleOpenInNewTab = () => {
     const pdfUrl =
-      "https://drive.google.com/file/d/1odZrSSuS3MCIXInBiYbZMXUziw8455Ba/view?usp=sharing";
+      "https://drive.google.com/file/d/1aObTx0uqCQagvUGnwZBO8zICgWA56wWx/view?usp=sharing";
     window.open(pdfUrl, '_blank');
 };
 

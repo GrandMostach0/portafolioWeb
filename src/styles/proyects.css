@@ -32,7 +32,7 @@
     font-weight: bold;
     opacity: 1;
     background-color: var(--menu-proyect-selector);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .card-proyect{

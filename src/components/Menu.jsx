@@ -18,12 +18,11 @@ function Menu({ isDark, toggleTheme }) {
         section.offsetTop -
         window.innerHeight / 2 +
         section.clientHeight / 2 +
-        100; // Ajusta el valor (100 en este ejemplo) según tus necesidades
+        100;
       window.scrollTo({
         top: offset,
         behavior: "smooth",
       });
-      // Cerrar el menú después de hacer clic en un enlace
       setIsOpen(false);
     }
   };

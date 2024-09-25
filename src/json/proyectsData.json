@@ -6,7 +6,7 @@
     "title": "Place & Delirio",
     "category": "FullStack",
     "description": "Plantilla de una página web para una cafetería, es una página FullStack ya que cuenta con secciones tanto Backend y Frontend.",
-    "urlGitHub": "https://github.com/GrandMostach0",
+    "urlGitHub": "https://github.com/GrandMostach0/Cafeteria_page",
     "urlPreview": "http://18.216.145.93/index.php",
     "tags": ["HTML", "CSS", "PHP", "MYSQL"]
   },
